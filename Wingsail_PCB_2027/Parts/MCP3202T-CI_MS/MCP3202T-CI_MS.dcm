@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP3202T-CI_MS
+D Analog to Digital Converters - ADC 12-bit ADC, SPI, dual channel (MSOP), 8-Lead
+K
+F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en011281
+$ENDCMP
+#
+#End Doc Library

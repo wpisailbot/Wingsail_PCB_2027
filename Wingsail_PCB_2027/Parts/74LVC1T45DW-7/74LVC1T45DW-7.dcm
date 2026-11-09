@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74LVC1T45DW-7
+D Voltage Level Translator 1-CH Bidirectional 6-Pin SOT-363 T/R
+K
+F https://www.diodes.com//assets/Datasheets/74LVC1T45.pdf
+$ENDCMP
+#
+#End Doc Library

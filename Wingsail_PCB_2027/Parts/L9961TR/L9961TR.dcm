@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP L9961TR
+D STMicroelectronics Chip for consumer battery management applications up to 5 cells
+K
+F https://www.st.com/resource/en/datasheet/l9961.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,32 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model AP64502SP-13
+#/17475721/1520827/2.50/9/2/Integrated Circuit
+DEF AP64502SP-13 IC 0 30 Y Y 1 F N
+F0 "IC" 1250 300 50 H V L CNN
+F1 "AP64502SP-13" 1250 200 50 H V L CNN
+F2 "SOIC127P600X163-9N" 1250 100 50 H I L CNN
+F3 "https://www.diodes.com//assets/Datasheets/AP64502.pdf" 1250 0 50 H I L CNN
+F4 "Switching Voltage Regulators DCDC Conv HV Buck SO-8EP T&R 4K" 1250 -100 50 H I L CNN "Description"
+F5 "1.63" 1250 -200 50 H I L CNN "Height"
+F6 "Diodes Incorporated" 1250 -300 50 H I L CNN "Manufacturer_Name"
+F7 "AP64502SP-13" 1250 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "621-AP64502SP-13" 1250 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP64502SP-13?qs=7D1LtPJG0i1vNCmN2FNgNg%3D%3D" 1250 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "AP64502SP-13" 1250 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/ap64502sp-13/diodes-incorporated?utm_currency=USD&region=nac" 1250 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X BST 1 0 0 200 R 50 50 0 0 P
+X VIN 2 0 -100 200 R 50 50 0 0 P
+X EN 3 0 -200 200 R 50 50 0 0 P
+X RT/CLK 4 0 -300 200 R 50 50 0 0 P
+X GND_2 9 700 -1000 200 U 50 50 0 0 P
+X SW 8 1400 0 200 L 50 50 0 0 P
+X GND_1 7 1400 -100 200 L 50 50 0 0 P
+X SS 6 1400 -200 200 L 50 50 0 0 P
+X FB 5 1400 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1200 100 1200 -800 200 -800 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
