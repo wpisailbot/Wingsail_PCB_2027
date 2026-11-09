@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "d1b518be-2f1c-4686-b0b2-14a363593503")
+	(uuid "d393975a-32ba-4a83-8a38-f64a0f76bef2")
 	(paper "A4")
 	(lib_symbols
 		(symbol "74LVC1T45DW-7:74LVC1T45DW-7"
@@ -265,6 +265,227 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:Conn_01x03_Pin"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J4"
+				(at 0.635 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MA3 Encoder"
+				(at 0.635 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x03_Pin_1_1"
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "output"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -836,9 +1057,29 @@
 			(embedded_fonts no)
 		)
 	)
+	(text_box "Need to decide if ADC is powered by buck converter or by Linear regulator "
+		(exclude_from_sim no)
+		(at 87.63 61.595 0)
+		(size 39.37 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "983e205c-c80c-4c5e-80b4-72936b00cdfb")
+	)
 	(wire
 		(pts
-			(xy 146.05 86.36) (xy 146.05 66.04)
+			(xy 130.81 67.31) (xy 130.81 86.36)
 		)
 		(stroke
 			(width 0)
@@ -848,7 +1089,27 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 88.9) (xy 152.4 83.82)
+			(xy 134.62 85.09) (xy 138.43 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0daeb4a3-1362-494c-a43c-ceb3b4cd7c35")
+	)
+	(wire
+		(pts
+			(xy 64.77 86.36) (xy 83.82 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "115ec35b-71fc-4449-ae80-037b1ac484a1")
+	)
+	(wire
+		(pts
+			(xy 134.62 85.09) (xy 134.62 88.9)
 		)
 		(stroke
 			(width 0)
@@ -858,17 +1119,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 86.36) (xy 146.05 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ba7927f-9132-49f7-82c8-9f4a9bbb3e18")
-	)
-	(wire
-		(pts
-			(xy 121.92 91.44) (xy 148.59 91.44)
+			(xy 121.92 91.44) (xy 128.27 91.44)
 		)
 		(stroke
 			(width 0)
@@ -878,7 +1129,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 101.6) (xy 163.83 101.6)
+			(xy 128.27 102.87) (xy 138.43 102.87)
 		)
 		(stroke
 			(width 0)
@@ -888,7 +1139,17 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 48.26) (xy 163.83 48.26)
+			(xy 130.81 67.31) (xy 138.43 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "403e730a-752c-4eb6-8cc8-c7e115c80f40")
+	)
+	(wire
+		(pts
+			(xy 83.82 49.53) (xy 138.43 49.53)
 		)
 		(stroke
 			(width 0)
@@ -898,7 +1159,17 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 91.44) (xy 148.59 101.6)
+			(xy 121.92 86.36) (xy 130.81 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "939c4876-cf52-487f-9c64-3e7fa297957a")
+	)
+	(wire
+		(pts
+			(xy 128.27 91.44) (xy 128.27 102.87)
 		)
 		(stroke
 			(width 0)
@@ -908,17 +1179,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 88.9) (xy 152.4 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bde782cc-c867-4063-aa3b-b36949204608")
-	)
-	(wire
-		(pts
-			(xy 83.82 83.82) (xy 83.82 48.26)
+			(xy 83.82 83.82) (xy 83.82 49.53)
 		)
 		(stroke
 			(width 0)
@@ -928,133 +1189,87 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 83.82) (xy 163.83 83.82)
+			(xy 134.62 88.9) (xy 121.92 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f2c242cc-7cd1-40ef-b7ea-5f15899c645d")
+		(uuid "e34f0575-abf6-4fac-bd7b-d99049dda777")
 	)
-	(wire
-		(pts
-			(xy 146.05 66.04) (xy 163.83 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa6d8ad9-a8f5-4816-a4c9-1d3ac630d5c1")
-	)
-	(global_label "5V ADC"
-		(shape input)
-		(at 163.83 96.52 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3475376e-9acb-4354-90e3-52df0d692f16")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.9505 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "5V ADC"
-		(shape input)
-		(at 163.83 78.74 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "abbbbfa1-5d09-4d73-9a35-e98642e34706")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.9505 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "5V ADC"
-		(shape input)
-		(at 163.83 43.18 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "adaac8bd-4dca-49f9-8cdb-e526e2889f72")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.9505 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "5V ADC"
-		(shape input)
-		(at 163.83 60.96 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d57b0bab-5629-4582-b9cc-fd107603f83b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.9505 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "5V ADC"
-		(shape input)
+	(label "ADC 5V"
 		(at 83.82 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "85298400-c7c1-4aa5-98fb-87fe50e1046b")
+	)
+	(label "ADC 5V"
+		(at 138.43 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "abbd75f3-5b83-41a7-96f8-fc3139ddb4d9")
+	)
+	(label "ADC 5V"
+		(at 138.43 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b06458e5-3633-4964-85c6-7f18109d8bd8")
+	)
+	(label "ADC 5V"
+		(at 138.43 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d9abf044-a366-42a6-8c43-98685f19d633")
+	)
+	(label "ADC 5V"
+		(at 64.77 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "da9626c1-d5b6-497c-a6e4-26cc55fe5ee5")
+	)
+	(label "ADC 5V"
+		(at 138.43 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e8c9f292-42e3-4eb0-ad38-c8fb470afe8b")
+	)
+	(global_label "5V ADC"
+		(shape input)
+		(at 171.45 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "dec6d7c5-3e7a-4956-bff5-a6cc0430f8a1")
+		(uuid "10f0919d-cc19-46e8-88c2-043b764404dd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.9405 91.44 0)
+			(at 181.3295 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1062,13 +1277,57 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
+	)
+	(hierarchical_label "CLK"
+		(shape input)
+		(at 171.45 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3b0fc283-da9e-48e7-bee5-aff5188f7d39")
+	)
+	(hierarchical_label "Din"
+		(shape input)
+		(at 171.45 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "47ce0fa9-9264-466e-a06a-beb3dd8e8423")
+	)
+	(hierarchical_label "Dout"
+		(shape output)
+		(at 171.45 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "59d3de3d-579f-47b0-b0a0-e4a9c9b42881")
+	)
+	(hierarchical_label "CS"
+		(shape input)
+		(at 171.45 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ce568069-c502-48ab-94d7-b942c80019e2")
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 163.83 99.06 270)
+		(at 138.43 100.33 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1079,7 +1338,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ba67ab3-94c9-41fb-b1b4-7b980f994ffd")
 		(property "Reference" "#PWR022"
-			(at 157.48 99.06 0)
+			(at 132.08 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1090,7 +1349,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 160.02 99.0599 90)
+			(at 134.62 100.3299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1101,7 +1360,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 99.06 0)
+			(at 138.43 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1112,7 +1371,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 99.06 0)
+			(at 138.43 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1123,7 +1382,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 163.83 99.06 0)
+			(at 138.43 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1146,8 +1405,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 196.85 60.96 270)
+		(lib_id "power:GND")
+		(at 171.45 64.77 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1156,9 +1415,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1f4f78f1-705d-4b97-8d5a-b273a4703726")
-		(property "Reference" "#PWR023"
-			(at 193.04 60.96 0)
+		(uuid "15bc39a9-618f-4e23-988a-f1321c737580")
+		(property "Reference" "#PWR027"
+			(at 177.8 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1168,19 +1427,19 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 200.66 60.9599 90)
+		(property "Value" "GND"
+			(at 175.26 64.7699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 60.96 0)
+			(at 171.45 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1191,7 +1450,86 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 60.96 0)
+			(at 171.45 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 171.45 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c0e1e9ce-9dc2-4abd-a9d5-b4532c71b82c")
+		)
+		(instances
+			(project "Wingsail_PCB_2027"
+				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/5c1c20ae-7669-4809-9fa4-9ba7f359480a/ccac33dd-7db4-4875-a2ad-b302c6de4db7"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 171.45 62.23 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f4f78f1-705d-4b97-8d5a-b273a4703726")
+		(property "Reference" "#PWR023"
+			(at 167.64 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 175.26 62.2299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1202,7 +1540,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 196.85 60.96 0)
+			(at 171.45 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1304,8 +1642,166 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 171.45 46.99 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35c65ce0-a9b9-47a7-b9e0-33bdec4d29c2")
+		(property "Reference" "#PWR028"
+			(at 177.8 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 46.9899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 171.45 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "60453f56-c2c4-4800-9790-f9cbe7c02761")
+		)
+		(instances
+			(project "Wingsail_PCB_2027"
+				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/5c1c20ae-7669-4809-9fa4-9ba7f359480a/ccac33dd-7db4-4875-a2ad-b302c6de4db7"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 171.45 100.33 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b474add-6289-4f76-b67f-d8744f1294ff")
+		(property "Reference" "#PWR026"
+			(at 177.8 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 100.3299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 171.45 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "84aaeacb-db08-4207-8d4f-63ad90aa4918")
+		)
+		(instances
+			(project "Wingsail_PCB_2027"
+				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/5c1c20ae-7669-4809-9fa4-9ba7f359480a/ccac33dd-7db4-4875-a2ad-b302c6de4db7"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74LVC1T45DW-7:74LVC1T45DW-7")
-		(at 163.83 60.96 0)
+		(at 138.43 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1316,7 +1812,7 @@
 		(fields_autoplaced yes)
 		(uuid "4d160d84-e7ad-4934-9ee0-b265c1c39bdf")
 		(property "Reference" "IC3"
-			(at 180.34 53.34 0)
+			(at 154.94 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1326,7 +1822,7 @@
 			)
 		)
 		(property "Value" "74LVC1T45DW-7"
-			(at 180.34 55.88 0)
+			(at 154.94 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1336,7 +1832,7 @@
 			)
 		)
 		(property "Footprint" "SOT65P210X110-6N"
-			(at 193.04 155.88 0)
+			(at 167.64 157.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1348,7 +1844,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/74LVC1T45.pdf"
-			(at 193.04 255.88 0)
+			(at 167.64 257.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1360,7 +1856,7 @@
 			)
 		)
 		(property "Description" "Voltage Level Translator 1-CH Bidirectional 6-Pin SOT-363 T/R"
-			(at 163.83 60.96 0)
+			(at 138.43 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1371,7 +1867,7 @@
 			)
 		)
 		(property "Height" "1.1"
-			(at 193.04 455.88 0)
+			(at 167.64 457.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1383,7 +1879,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 193.04 555.88 0)
+			(at 167.64 557.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1395,7 +1891,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "74LVC1T45DW-7"
-			(at 193.04 655.88 0)
+			(at 167.64 657.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1407,7 +1903,7 @@
 			)
 		)
 		(property "Mouser Part Number" "621-74LVC1T45DW-7"
-			(at 193.04 755.88 0)
+			(at 167.64 757.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1419,7 +1915,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/74LVC1T45DW-7?qs=Oxncjon6mbplzGvxR3UXkA%3D%3D"
-			(at 193.04 855.88 0)
+			(at 167.64 857.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1431,7 +1927,7 @@
 			)
 		)
 		(property "Arrow Part Number" "74LVC1T45DW-7"
-			(at 193.04 955.88 0)
+			(at 167.64 957.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1443,7 +1939,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/74lvc1t45dw-7/diodes-incorporated.html?utm_currency=USD&region=nac"
-			(at 193.04 1055.88 0)
+			(at 167.64 1057.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1483,7 +1979,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 163.83 63.5 270)
+		(at 138.43 64.77 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1494,7 +1990,7 @@
 		(fields_autoplaced yes)
 		(uuid "5a726a16-f410-438e-8439-93bdb875aa3c")
 		(property "Reference" "#PWR020"
-			(at 157.48 63.5 0)
+			(at 132.08 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1505,7 +2001,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 160.02 63.4999 90)
+			(at 134.62 64.7699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1516,7 +2012,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 63.5 0)
+			(at 138.43 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1527,7 +2023,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 63.5 0)
+			(at 138.43 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1538,7 +2034,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 163.83 63.5 0)
+			(at 138.43 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1561,8 +2057,87 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 64.77 91.44 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b572a99-b477-41ca-ba8f-e1b13607bccf")
+		(property "Reference" "#PWR029"
+			(at 71.12 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 68.58 91.4399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 64.77 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3e45dac3-f596-4095-89ad-76a48987931e")
+		)
+		(instances
+			(project "Wingsail_PCB_2027"
+				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/5c1c20ae-7669-4809-9fa4-9ba7f359480a/ccac33dd-7db4-4875-a2ad-b302c6de4db7"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74LVC1T45DW-7:74LVC1T45DW-7")
-		(at 163.83 96.52 0)
+		(at 138.43 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1573,7 +2148,7 @@
 		(fields_autoplaced yes)
 		(uuid "64b9d843-2347-44fb-974d-7f047006a6c0")
 		(property "Reference" "IC5"
-			(at 180.34 88.9 0)
+			(at 154.94 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1583,7 +2158,7 @@
 			)
 		)
 		(property "Value" "74LVC1T45DW-7"
-			(at 180.34 91.44 0)
+			(at 154.94 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1593,7 +2168,7 @@
 			)
 		)
 		(property "Footprint" "SOT65P210X110-6N"
-			(at 193.04 191.44 0)
+			(at 167.64 192.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1605,7 +2180,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/74LVC1T45.pdf"
-			(at 193.04 291.44 0)
+			(at 167.64 292.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1617,7 +2192,7 @@
 			)
 		)
 		(property "Description" "Voltage Level Translator 1-CH Bidirectional 6-Pin SOT-363 T/R"
-			(at 163.83 96.52 0)
+			(at 138.43 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1628,7 +2203,7 @@
 			)
 		)
 		(property "Height" "1.1"
-			(at 193.04 491.44 0)
+			(at 167.64 492.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1640,7 +2215,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 193.04 591.44 0)
+			(at 167.64 592.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1652,7 +2227,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "74LVC1T45DW-7"
-			(at 193.04 691.44 0)
+			(at 167.64 692.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1664,7 +2239,7 @@
 			)
 		)
 		(property "Mouser Part Number" "621-74LVC1T45DW-7"
-			(at 193.04 791.44 0)
+			(at 167.64 792.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1676,7 +2251,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/74LVC1T45DW-7?qs=Oxncjon6mbplzGvxR3UXkA%3D%3D"
-			(at 193.04 891.44 0)
+			(at 167.64 892.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1688,7 +2263,7 @@
 			)
 		)
 		(property "Arrow Part Number" "74LVC1T45DW-7"
-			(at 193.04 991.44 0)
+			(at 167.64 992.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1700,7 +2275,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/74lvc1t45dw-7/diodes-incorporated.html?utm_currency=USD&region=nac"
-			(at 193.04 1091.44 0)
+			(at 167.64 1092.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1740,7 +2315,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 196.85 43.18 270)
+		(at 171.45 44.45 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1751,7 +2326,7 @@
 		(fields_autoplaced yes)
 		(uuid "75f46131-4dd0-4eca-bb93-5c8146961ab5")
 		(property "Reference" "#PWR017"
-			(at 193.04 43.18 0)
+			(at 167.64 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1762,7 +2337,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 200.66 43.1799 90)
+			(at 175.26 44.4499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1773,7 +2348,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 43.18 0)
+			(at 171.45 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1784,7 +2359,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 43.18 0)
+			(at 171.45 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1795,7 +2370,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 196.85 43.18 0)
+			(at 171.45 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1819,7 +2394,7 @@
 	)
 	(symbol
 		(lib_id "74LVC1T45DW-7:74LVC1T45DW-7")
-		(at 163.83 78.74 0)
+		(at 138.43 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1830,7 +2405,7 @@
 		(fields_autoplaced yes)
 		(uuid "7ae528d7-1c75-4431-ba99-211e46f52e44")
 		(property "Reference" "IC4"
-			(at 180.34 71.12 0)
+			(at 154.94 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1840,7 +2415,7 @@
 			)
 		)
 		(property "Value" "74LVC1T45DW-7"
-			(at 180.34 73.66 0)
+			(at 154.94 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1850,7 +2425,7 @@
 			)
 		)
 		(property "Footprint" "SOT65P210X110-6N"
-			(at 193.04 173.66 0)
+			(at 167.64 174.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1862,7 +2437,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/74LVC1T45.pdf"
-			(at 193.04 273.66 0)
+			(at 167.64 274.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1874,7 +2449,7 @@
 			)
 		)
 		(property "Description" "Voltage Level Translator 1-CH Bidirectional 6-Pin SOT-363 T/R"
-			(at 163.83 78.74 0)
+			(at 138.43 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1885,7 +2460,7 @@
 			)
 		)
 		(property "Height" "1.1"
-			(at 193.04 473.66 0)
+			(at 167.64 474.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1897,7 +2472,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 193.04 573.66 0)
+			(at 167.64 574.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1909,7 +2484,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "74LVC1T45DW-7"
-			(at 193.04 673.66 0)
+			(at 167.64 674.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1921,7 +2496,7 @@
 			)
 		)
 		(property "Mouser Part Number" "621-74LVC1T45DW-7"
-			(at 193.04 773.66 0)
+			(at 167.64 774.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1933,7 +2508,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/74LVC1T45DW-7?qs=Oxncjon6mbplzGvxR3UXkA%3D%3D"
-			(at 193.04 873.66 0)
+			(at 167.64 874.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1945,7 +2520,7 @@
 			)
 		)
 		(property "Arrow Part Number" "74LVC1T45DW-7"
-			(at 193.04 973.66 0)
+			(at 167.64 974.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1957,7 +2532,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/74lvc1t45dw-7/diodes-incorporated.html?utm_currency=USD&region=nac"
-			(at 193.04 1073.66 0)
+			(at 167.64 1074.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1996,8 +2571,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 196.85 96.52 270)
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 59.69 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2006,10 +2581,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "95ee25e5-089c-4e0d-95eb-4bef63c62a8e")
-		(property "Reference" "#PWR025"
-			(at 193.04 96.52 0)
-			(hide yes)
+		(uuid "8be4630d-723d-462e-ba86-90f691af2154")
+		(property "Reference" "J4"
+			(at 60.325 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2018,19 +2592,18 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 200.66 96.5199 90)
+		(property "Value" "MA3 Encoder"
+			(at 60.325 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 96.52 0)
+			(at 59.69 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2041,7 +2614,92 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 96.52 0)
+			(at 59.69 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 59.69 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ea47590d-1cfa-46f7-a836-894522ef0904")
+		)
+		(pin "2"
+			(uuid "f1b2a83e-d583-45f3-982a-b666ab5ab48a")
+		)
+		(pin "3"
+			(uuid "5eae19e9-d6c8-4d23-9f1c-0958b9a395ab")
+		)
+		(instances
+			(project "Wingsail_PCB_2027"
+				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/5c1c20ae-7669-4809-9fa4-9ba7f359480a/ccac33dd-7db4-4875-a2ad-b302c6de4db7"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 171.45 97.79 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95ee25e5-089c-4e0d-95eb-4bef63c62a8e")
+		(property "Reference" "#PWR025"
+			(at 167.64 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 175.26 97.7899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2052,7 +2710,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 196.85 96.52 0)
+			(at 171.45 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2076,7 +2734,7 @@
 	)
 	(symbol
 		(lib_id "74LVC1T45DW-7:74LVC1T45DW-7")
-		(at 163.83 43.18 0)
+		(at 138.43 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2087,7 +2745,7 @@
 		(fields_autoplaced yes)
 		(uuid "b02c3795-810d-4a7a-8eb7-0f57429faae7")
 		(property "Reference" "IC6"
-			(at 180.34 35.56 0)
+			(at 154.94 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2097,7 +2755,7 @@
 			)
 		)
 		(property "Value" "74LVC1T45DW-7"
-			(at 180.34 38.1 0)
+			(at 154.94 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2107,7 +2765,7 @@
 			)
 		)
 		(property "Footprint" "SOT65P210X110-6N"
-			(at 193.04 138.1 0)
+			(at 167.64 139.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2119,7 +2777,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/74LVC1T45.pdf"
-			(at 193.04 238.1 0)
+			(at 167.64 239.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2131,7 +2789,7 @@
 			)
 		)
 		(property "Description" "Voltage Level Translator 1-CH Bidirectional 6-Pin SOT-363 T/R"
-			(at 163.83 43.18 0)
+			(at 138.43 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2142,7 +2800,7 @@
 			)
 		)
 		(property "Height" "1.1"
-			(at 193.04 438.1 0)
+			(at 167.64 439.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2154,7 +2812,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 193.04 538.1 0)
+			(at 167.64 539.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2166,7 +2824,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "74LVC1T45DW-7"
-			(at 193.04 638.1 0)
+			(at 167.64 639.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2178,7 +2836,7 @@
 			)
 		)
 		(property "Mouser Part Number" "621-74LVC1T45DW-7"
-			(at 193.04 738.1 0)
+			(at 167.64 739.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2190,7 +2848,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/74LVC1T45DW-7?qs=Oxncjon6mbplzGvxR3UXkA%3D%3D"
-			(at 193.04 838.1 0)
+			(at 167.64 839.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2202,7 +2860,7 @@
 			)
 		)
 		(property "Arrow Part Number" "74LVC1T45DW-7"
-			(at 193.04 938.1 0)
+			(at 167.64 939.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2214,7 +2872,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/74lvc1t45dw-7/diodes-incorporated.html?utm_currency=USD&region=nac"
-			(at 193.04 1038.1 0)
+			(at 167.64 1039.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2438,7 +3096,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 196.85 78.74 270)
+		(at 171.45 80.01 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2449,7 +3107,7 @@
 		(fields_autoplaced yes)
 		(uuid "dbd0d04b-aff4-410b-a9f4-3f6a8b7c7bdd")
 		(property "Reference" "#PWR024"
-			(at 193.04 78.74 0)
+			(at 167.64 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2460,7 +3118,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 200.66 78.7399 90)
+			(at 175.26 80.0099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2471,7 +3129,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 78.74 0)
+			(at 171.45 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2482,7 +3140,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 78.74 0)
+			(at 171.45 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2493,7 +3151,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 196.85 78.74 0)
+			(at 171.45 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2517,7 +3175,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 163.83 81.28 270)
+		(at 138.43 82.55 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2525,10 +3183,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "df497192-8b04-45fc-af74-d70455795941")
 		(property "Reference" "#PWR021"
-			(at 157.48 81.28 0)
+			(at 132.08 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2539,7 +3196,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 160.02 81.2799 90)
+			(at 135.128 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2550,7 +3207,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 81.28 0)
+			(at 138.43 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2561,7 +3218,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 81.28 0)
+			(at 138.43 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2572,7 +3229,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 163.83 81.28 0)
+			(at 138.43 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2596,7 +3253,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 163.83 45.72 270)
+		(at 138.43 46.99 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2607,7 +3264,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7838ceb-f0b8-4020-907e-8defb34401cb")
 		(property "Reference" "#PWR019"
-			(at 157.48 45.72 0)
+			(at 132.08 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2618,7 +3275,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 160.5851 45.7199 90)
+			(at 135.1851 46.9899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2629,7 +3286,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 45.72 0)
+			(at 138.43 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2640,7 +3297,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 45.72 0)
+			(at 138.43 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2651,7 +3308,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 163.83 45.72 0)
+			(at 138.43 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
