@@ -89,6 +89,16 @@
 				(justify left top)
 			)
 		)
+		(pin "Vbat" input
+			(at 211.455 62.23 0)
+			(uuid "ad0b7025-c61f-47d8-97ed-b4eae7f856f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "Wingsail_PCB_2027"
 				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7"
