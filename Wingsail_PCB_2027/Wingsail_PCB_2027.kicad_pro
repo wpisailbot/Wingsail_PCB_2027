@@ -694,7 +694,7 @@
         "uuid": "bc6bd6c7-c298-4657-b7be-c4ac293f57b7"
       }
     ],
-    "used_designators": "IC10",
+    "used_designators": "R1-21,J1-6,IC1-10,L1-2,#PWR1-57,C1-27,SW1-2,USBC1,D1,Q1",
     "variants": []
   },
   "sheets": [
