@@ -1907,6 +1907,28 @@
 				)
 			)
 		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/cal-chip-electronics-inc/GMC21X5R476M10NT/18151103?s=N4IgjCBcpgLFoDGUBmBDANgZwKYBoQB7KAbRAHZYBWMKkAgJiodroF0CAHAFyhAGVuAJwCWAOwDmIAL4EwANgQhkkdNnxFSIAMwBObQ130d%2B7QA4QHEDz6DRkmXN1mj0Zaky4CxSGQAMlrIgDH6wrqA2kCAAqmIi3ADyKACyOGhYAK5COMYZfACtAGLGALbifLDkpWgAHhVVQQC0DEoqwhkaPmTs0kGKbiIAJnyNYH4QXLxRxtwAnpw5UenIvUA"
+			(at 194.31 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Number" "GMC21X5R476M10NT"
+			(at 194.31 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ac85dea2-63e3-46d1-8c16-20b795b24e30")
 		)
