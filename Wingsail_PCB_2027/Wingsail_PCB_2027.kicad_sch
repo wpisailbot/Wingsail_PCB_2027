@@ -52,6 +52,52 @@
 		)
 	)
 	(sheet
+		(at 182.88 83.82)
+		(size 27.94 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6af81920-a213-4adf-bd78-a00b59783d7d")
+		(property "Sheetname" "BMS"
+			(at 182.88 83.1084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BMS.kicad_sch"
+			(at 182.88 108.5346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Wingsail_PCB_2027"
+				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 183.515 48.26)
 		(size 27.94 22.86)
 		(exclude_from_sim no)
