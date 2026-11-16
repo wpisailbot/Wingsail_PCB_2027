@@ -5,6 +5,36 @@
 	(uuid "bc6bd6c7-c298-4657-b7be-c4ac293f57b7")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 210.82 64.77) (xy 215.9 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37402dc6-f370-4acc-9dc9-7919783e8a6c")
+	)
+	(wire
+		(pts
+			(xy 215.9 87.63) (xy 215.9 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c3ffeaa-4d8d-4b23-a5a5-6c6a19197588")
+	)
+	(wire
+		(pts
+			(xy 210.82 87.63) (xy 215.9 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f2ce1d0-ad3f-4cfa-a6a2-7b6aac2720b6")
+	)
 	(sheet
 		(at 127.635 49.53)
 		(size 26.67 20.955)
@@ -89,6 +119,56 @@
 				(justify left top)
 			)
 		)
+		(pin "Fault_in" input
+			(at 182.88 104.14 180)
+			(uuid "1a982d70-efaf-4d5b-b911-8079e9007b94")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RDY" output
+			(at 182.88 100.33 180)
+			(uuid "c459d9da-1ee6-4fc0-b562-7839b399afde")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" input
+			(at 182.88 96.52 180)
+			(uuid "db0f5981-a646-476b-a487-20ed2301ef99")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 182.88 92.71 180)
+			(uuid "49e6afa7-68e6-444e-8723-15067b33140a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vbat+" output
+			(at 210.82 87.63 0)
+			(uuid "4048970b-fd89-451f-a8ef-279c71ac92ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "Wingsail_PCB_2027"
 				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7"
@@ -98,7 +178,7 @@
 		)
 	)
 	(sheet
-		(at 183.515 48.26)
+		(at 182.88 47.625)
 		(size 27.94 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -114,7 +194,7 @@
 		)
 		(uuid "7f5d2094-2856-4247-a9ab-41c9dec1bd29")
 		(property "Sheetname" "Power"
-			(at 183.515 47.5484 0)
+			(at 182.88 46.9134 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -125,7 +205,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 183.515 71.7046 0)
+			(at 182.88 71.0696 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -135,9 +215,9 @@
 				(justify left top)
 			)
 		)
-		(pin "Vbat" input
-			(at 211.455 62.23 0)
-			(uuid "ad0b7025-c61f-47d8-97ed-b4eae7f856f2")
+		(pin "Vbat+" input
+			(at 210.82 64.77 0)
+			(uuid "e01d8e8d-f29e-4f8d-8bc0-f6ec2bf33bfa")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -6024,6 +6024,50 @@
 			)
 		)
 	)
+	(hierarchical_label "RDY"
+		(shape input)
+		(at 149.86 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3660b2ad-05bc-4b10-be90-94986f043417")
+	)
+	(hierarchical_label "Fault_out"
+		(shape output)
+		(at 149.86 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "76a10515-2630-4a57-ac40-99c80b25e40b")
+	)
+	(hierarchical_label "SCL"
+		(shape output)
+		(at 149.86 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "915ce3b7-51fe-4f3c-9a0d-127f1803839b")
+	)
+	(hierarchical_label "SDA"
+		(shape bidirectional)
+		(at 149.86 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "deeac034-5e2a-4c5a-9a25-af2cabf287d8")
+	)
 	(symbol
 		(lib_id "Device:R_US")
 		(at 218.44 63.5 90)
