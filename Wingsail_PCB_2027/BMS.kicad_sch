@@ -5,6 +5,187 @@
 	(uuid "6f16f0bd-4c56-4a3c-a3ee-43e7c28dac68")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
 				(offset 1.016)
@@ -1733,206 +1914,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_SparkFun-Resistor:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1k"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
-				(at 0 -4.572 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-				(at -1.27 -8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 -11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "PROD_ID" "RES-07856"
-				(at 0 -6.858 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "SparkFun R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_0_1"
-				(polyline
-					(pts
-						(xy -2.286 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 0) (xy -1.143 -1.016) (xy -1.524 0) (xy -1.905 1.016) (xy -2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0) (xy 0.381 -1.016) (xy 0 0) (xy -0.381 1.016) (xy -0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.905 -1.016) (xy 1.524 0) (xy 1.143 1.016) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Simulation_SPICE:NMOS"
 			(pin_numbers
 				(hide yes)
@@ -2531,10 +2512,10 @@
 		(uuid "0c027a7d-af10-4947-b8d9-48775d343ce7")
 	)
 	(junction
-		(at 111.76 127)
+		(at 210.82 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "18e3c258-911f-4c40-9c7e-050ee78dc107")
+		(uuid "19225d00-fe84-4b02-8c72-14c0ad616664")
 	)
 	(junction
 		(at 96.52 121.92)
@@ -2555,28 +2536,28 @@
 		(uuid "290df5a3-b4ad-4826-adc5-30d42f3d5ec2")
 	)
 	(junction
+		(at 111.76 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32d6e701-4257-4fff-8718-520bdd91f92a")
+	)
+	(junction
 		(at 168.91 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "336d1a59-703a-419d-b881-75e093629516")
 	)
 	(junction
-		(at 167.64 101.6)
+		(at 59.69 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "391fc4ca-80cd-45ce-9ebf-cf8c7406e8e6")
+		(uuid "36bc0704-11a7-432d-9603-f7ccbbc80ba2")
 	)
 	(junction
-		(at 194.31 82.55)
+		(at 69.85 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3ac67131-ea84-4f0f-a763-ef0da3db1017")
-	)
-	(junction
-		(at 69.85 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3bd55e85-5495-44fa-9e81-b95be39322cf")
+		(uuid "3716d222-1d41-40d2-8880-3ad13d09eb8a")
 	)
 	(junction
 		(at 69.85 86.36)
@@ -2591,22 +2572,16 @@
 		(uuid "46ae4c5e-537b-4d06-9489-15ff08e941ad")
 	)
 	(junction
-		(at 153.67 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "49f75908-38c5-4ec5-86bf-49fd4e57cdd7")
-	)
-	(junction
 		(at 133.35 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5349ec2c-6e4c-470c-810f-bfea967f5519")
 	)
 	(junction
-		(at 210.82 73.66)
+		(at 59.69 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "63deee3e-53a5-48a9-98cd-14315becbec7")
+		(uuid "6c035de1-504b-49c2-bc64-ac7487712bf2")
 	)
 	(junction
 		(at 153.67 55.88)
@@ -2621,22 +2596,28 @@
 		(uuid "6ff8a6ea-a693-437c-918e-dea434200201")
 	)
 	(junction
-		(at 69.85 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7355a86d-7d77-45e9-b309-46f18ed9b2b1")
-	)
-	(junction
 		(at 96.52 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76250c06-6e4c-4d22-b502-0bbec5bdcae8")
 	)
 	(junction
-		(at 146.05 40.64)
+		(at 90.17 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7749379d-e929-4278-b574-09101315d56b")
+		(uuid "7edf7791-580a-4763-9592-97d69802f8a7")
+	)
+	(junction
+		(at 59.69 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80089b56-0928-43c9-9b68-8f7831a512b3")
+	)
+	(junction
+		(at 69.85 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82512c2c-84ef-4a11-a385-ea1e41038abe")
 	)
 	(junction
 		(at 137.16 113.03)
@@ -2657,12 +2638,6 @@
 		(uuid "86594e17-73b5-4f27-8ead-28189ca5eb32")
 	)
 	(junction
-		(at 69.85 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8c2ec580-7b44-4e2d-82ee-6b87ddc87d22")
-	)
-	(junction
 		(at 90.17 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2681,22 +2656,40 @@
 		(uuid "986e37c8-776b-43ed-bc3b-6ba1e265cf6c")
 	)
 	(junction
+		(at 111.76 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9db4f436-78fe-40e8-b592-9cc8f1a1345c")
+	)
+	(junction
 		(at 90.17 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e472e33-ae21-4209-be53-e97a1bdcb636")
 	)
 	(junction
-		(at 111.76 132.08)
+		(at 167.64 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a34a9b76-0cfc-4661-8e99-baef04727d70")
+		(uuid "a969da0b-2006-4640-9a44-0afe7e5f4a7a")
 	)
 	(junction
-		(at 59.69 101.6)
+		(at 194.31 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b87624a2-bf81-43b0-b017-562d69ef470a")
+		(uuid "a99c0934-602a-4999-a407-682857ae291f")
+	)
+	(junction
+		(at 69.85 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab2ad1af-1491-4bee-9b4e-6fa9e19ece8d")
+	)
+	(junction
+		(at 69.85 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5b06533-65ad-43a1-9feb-343f20e6f4b5")
 	)
 	(junction
 		(at 88.9 55.88)
@@ -2735,6 +2728,12 @@
 		(uuid "cce1ceb9-a5a1-4b17-8742-33de2f6c8d98")
 	)
 	(junction
+		(at 146.05 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf9a6565-e2ca-420f-aaa2-9d359705c917")
+	)
+	(junction
 		(at 134.62 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2747,16 +2746,16 @@
 		(uuid "e3597f4d-169b-4330-8176-0806da271102")
 	)
 	(junction
-		(at 59.69 93.98)
+		(at 153.67 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e40fc398-a753-47ee-a96f-757d245c6e82")
+		(uuid "ee3c4e23-7b87-41fe-8cbf-cece669be923")
 	)
 	(junction
-		(at 59.69 86.36)
+		(at 69.85 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fc708713-3d54-47dc-b994-74f0328e33c5")
+		(uuid "f5e3aa78-0b75-4c8e-8af6-5eaf92097c4c")
 	)
 	(wire
 		(pts
@@ -2777,6 +2776,26 @@
 			(type default)
 		)
 		(uuid "01a406c8-1894-4298-8f92-97dfe3777794")
+	)
+	(wire
+		(pts
+			(xy 59.69 101.6) (xy 59.69 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01b41510-93e6-4b31-b40b-b50c00772c76")
+	)
+	(wire
+		(pts
+			(xy 69.85 71.12) (xy 81.28 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "049f7a5b-94f2-4f8f-8681-22f8c56aac4f")
 	)
 	(wire
 		(pts
@@ -2810,16 +2829,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 101.6) (xy 167.64 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cf5760d-b134-4da1-8cd4-fccbe4a7afec")
-	)
-	(wire
-		(pts
 			(xy 134.62 130.81) (xy 134.62 133.35)
 		)
 		(stroke
@@ -2827,6 +2836,26 @@
 			(type default)
 		)
 		(uuid "0f01b9ee-68b4-48bc-8289-2bc52e4adc7e")
+	)
+	(wire
+		(pts
+			(xy 111.76 147.32) (xy 111.76 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fe58fd2-546f-4c6c-b738-2e86fc61a9eb")
+	)
+	(wire
+		(pts
+			(xy 59.69 93.98) (xy 59.69 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14b7a250-1bdf-43bc-8c36-11db5a3af12e")
 	)
 	(wire
 		(pts
@@ -2900,7 +2929,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 40.64) (xy 160.02 40.64)
+			(xy 146.05 40.64) (xy 153.67 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2920,7 +2949,17 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 101.6) (xy 187.96 101.6)
+			(xy 69.85 30.48) (xy 90.17 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24853171-640a-42ce-ae48-2d600936f31e")
+	)
+	(wire
+		(pts
+			(xy 139.7 101.6) (xy 167.64 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2960,6 +2999,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 139.7) (xy 59.69 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31a4574b-bf8a-4007-bf92-7de456473e64")
+	)
+	(wire
+		(pts
 			(xy 168.91 55.88) (xy 168.91 63.5)
 		)
 		(stroke
@@ -2977,6 +3026,16 @@
 			(type default)
 		)
 		(uuid "36ec7df7-8e62-4a41-90a9-a7990c2f2de5")
+	)
+	(wire
+		(pts
+			(xy 167.64 101.6) (xy 187.96 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "392bff83-5641-489c-b14d-0a72b3a44aee")
 	)
 	(wire
 		(pts
@@ -3040,16 +3099,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 121.92) (xy 111.76 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4781785e-7374-4074-bcce-791507439288")
-	)
-	(wire
-		(pts
 			(xy 90.17 30.48) (xy 90.17 40.64)
 		)
 		(stroke
@@ -3110,7 +3159,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 71.12) (xy 67.31 71.12)
+			(xy 67.31 71.12) (xy 69.85 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3150,16 +3199,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 93.98) (xy 59.69 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c821b70-ccd9-49a1-8dca-15991ef6a8fe")
-	)
-	(wire
-		(pts
 			(xy 67.31 93.98) (xy 69.85 93.98)
 		)
 		(stroke
@@ -3170,13 +3209,13 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 71.12) (xy 81.28 71.12)
+			(xy 153.67 40.64) (xy 160.02 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6313aae5-b3ba-42db-96b5-ec0ae6ab4d23")
+		(uuid "629851a4-960b-48ab-8ac5-e9f5b60f27c6")
 	)
 	(wire
 		(pts
@@ -3210,6 +3249,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 147.32) (xy 96.52 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66ef726b-3dd2-4385-a890-fa8cfe60e56a")
+	)
+	(wire
+		(pts
 			(xy 146.05 48.26) (xy 146.05 52.07)
 		)
 		(stroke
@@ -3230,6 +3279,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 30.48) (xy 210.82 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ae95dfe-767e-48ce-af1a-659043d57ce2")
+	)
+	(wire
+		(pts
 			(xy 111.76 139.7) (xy 115.57 139.7)
 		)
 		(stroke
@@ -3247,6 +3306,16 @@
 			(type default)
 		)
 		(uuid "6eaf8140-71c1-409d-8e97-5fcc7edf444b")
+	)
+	(wire
+		(pts
+			(xy 69.85 78.74) (xy 80.01 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "751056f7-2e0f-4f41-a39b-6b391bd0ce83")
 	)
 	(wire
 		(pts
@@ -3290,13 +3359,13 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 30.48) (xy 90.17 30.48)
+			(xy 36.83 76.2) (xy 36.83 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7be2b75a-abec-409f-b684-0d039124c396")
+		(uuid "7b58c7b8-e13d-441d-8c38-db841c7b16a6")
 	)
 	(wire
 		(pts
@@ -3307,6 +3376,16 @@
 			(type default)
 		)
 		(uuid "7e4c41d3-016a-4ebe-906b-85ebbec92222")
+	)
+	(wire
+		(pts
+			(xy 30.48 78.74) (xy 38.1 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f158964-35d5-40c1-81e5-f31867e516f3")
 	)
 	(wire
 		(pts
@@ -3370,7 +3449,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 127) (xy 111.76 132.08)
+			(xy 111.76 121.92) (xy 111.76 127)
 		)
 		(stroke
 			(width 0)
@@ -3397,16 +3476,6 @@
 			(type default)
 		)
 		(uuid "90f91b3a-98db-4691-9af1-dd956df015d9")
-	)
-	(wire
-		(pts
-			(xy 146.05 40.64) (xy 153.67 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93b3c244-0454-460f-a920-10028d8d27a4")
 	)
 	(wire
 		(pts
@@ -3450,16 +3519,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 101.6) (xy 121.92 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cc283fd-0392-4217-83b5-0ed704413a8d")
-	)
-	(wire
-		(pts
 			(xy 185.42 81.28) (xy 165.1 81.28)
 		)
 		(stroke
@@ -3497,6 +3556,16 @@
 			(type default)
 		)
 		(uuid "a5a3d944-dba5-4c85-b592-92f73cc21fc0")
+	)
+	(wire
+		(pts
+			(xy 100.33 147.32) (xy 96.52 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a770afff-593c-4491-a6de-49f63a7287a5")
 	)
 	(wire
 		(pts
@@ -3570,6 +3639,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 127) (xy 111.76 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b318b807-c69a-44fc-a778-7dd1e3cc21fd")
+	)
+	(wire
+		(pts
 			(xy 90.17 58.42) (xy 90.17 71.12)
 		)
 		(stroke
@@ -3620,6 +3699,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 43.18) (xy 69.85 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9d9d259-d3c0-4ea8-8e97-ac9bd90fc992")
+	)
+	(wire
+		(pts
 			(xy 90.17 55.88) (xy 90.17 58.42)
 		)
 		(stroke
@@ -3630,13 +3719,13 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 78.74) (xy 80.01 78.74)
+			(xy 69.85 101.6) (xy 121.92 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bbd1fb2e-b96c-4541-b9f7-2809e3260349")
+		(uuid "ba99719d-a4de-4aff-8005-5106f6f510c3")
 	)
 	(wire
 		(pts
@@ -3800,6 +3889,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 30.48) (xy 69.85 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6507cf5-4e86-4ccc-a11b-97e3b7f574e7")
+	)
+	(wire
+		(pts
 			(xy 104.14 104.14) (xy 124.46 104.14)
 		)
 		(stroke
@@ -3807,6 +3906,16 @@
 			(type default)
 		)
 		(uuid "d6794154-5034-4d8a-9e8e-4a8da49aa58e")
+	)
+	(wire
+		(pts
+			(xy 107.95 147.32) (xy 111.76 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc16d4b8-c532-4781-8dd4-a53dff617dc4")
 	)
 	(wire
 		(pts
@@ -3870,16 +3979,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 86.36) (xy 59.69 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef29ebe2-6509-4ec6-9ea1-dfd1ad58d15d")
-	)
-	(wire
-		(pts
 			(xy 81.28 55.88) (xy 81.28 50.8)
 		)
 		(stroke
@@ -3887,6 +3986,16 @@
 			(type default)
 		)
 		(uuid "effabf8c-c012-4913-9e91-15523d97e682")
+	)
+	(wire
+		(pts
+			(xy 30.48 76.2) (xy 36.83 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0b6ab12-c038-4e3c-a298-65cced4db62d")
 	)
 	(wire
 		(pts
@@ -3900,6 +4009,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 78.74) (xy 38.1 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f27e3d89-c102-418f-ab0c-7e91db05f541")
+	)
+	(wire
+		(pts
 			(xy 81.28 71.12) (xy 81.28 78.74)
 		)
 		(stroke
@@ -3910,7 +4029,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 101.6) (xy 59.69 139.7)
+			(xy 59.69 86.36) (xy 59.69 93.98)
 		)
 		(stroke
 			(width 0)
@@ -4018,6 +4137,107 @@
 		(uuid "804b1ace-ee69-4450-b3de-b43303485b5d")
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 104.14 147.32 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "000e6274-0208-4b53-9c49-6b7db741bc52")
+		(property "Reference" "R15"
+			(at 104.14 149.86 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ".018"
+			(at 104.14 152.4 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 103.886 148.336 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 104.14 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part#" "WSHP2818R0180FEA"
+			(at 104.14 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "541-WSHP2818R0180FEACT-ND"
+			(at 104.14 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a50dc447-9528-4c9e-b2c5-3cfa5f261f9a")
+		)
+		(pin "2"
+			(uuid "b5d0a57f-d863-4f8a-afa9-c811bb61136c")
+		)
+		(instances
+			(project "Wingsail_PCB_2027"
+				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 121.92 57.15 0)
 		(unit 1)
@@ -4050,7 +4270,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 122.8852 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -4074,6 +4294,28 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 121.92 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part#" "0805B682K500CT"
+			(at 121.92 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "1292-1587-1-ND"
+			(at 121.92 57.15 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4207,6 +4449,28 @@
 				)
 			)
 		)
+		(property "Part#" "GSFD4003"
+			(at 139.7 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "4786-GSFD4003CT-ND"
+			(at 139.7 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "23ee1b05-3288-4008-94fd-10665490a8b9")
 		)
@@ -4258,7 +4522,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 88.9 59.9948 0)
 			(hide yes)
 			(show_name no)
@@ -4291,6 +4555,28 @@
 				)
 			)
 		)
+		(property "Part#" "CL21B224KBFNNNF"
+			(at 85.09 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "1276-CL21B224KBFNNNFCT-ND"
+			(at 85.09 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "660d2e75-d0a0-44e1-9057-40ddbcbc321f")
 		)
@@ -4307,8 +4593,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 63.5 86.36 90)
+		(lib_id "Device:C")
+		(at 69.85 82.55 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4316,29 +4602,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "099143ba-71da-46f1-86ad-104f0b920ae9")
-		(property "Reference" "R12"
-			(at 63.246 84.328 90)
+		(uuid "0afb1e73-442a-42bd-a597-41733ebe5dee")
+		(property "Reference" "C16"
+			(at 72.644 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "39"
-			(at 63.5 88.392 90)
+		(property "Value" "470n"
+			(at 72.644 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 63.754 85.344 90)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 68.8848 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4349,7 +4637,111 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 86.36 0)
+			(at 69.85 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 69.85 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part#" "CL21B474KAFNNNG"
+			(at 69.85 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "1276-6480-1-ND"
+			(at 69.85 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "68a4febb-9b5f-47cf-b4bd-5309e8f59357")
+		)
+		(pin "1"
+			(uuid "0727ea50-58fa-4752-b2d1-c0810da00408")
+		)
+		(instances
+			(project "Wingsail_PCB_2027"
+				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 168.91 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0bfe5f76-620c-4d4e-87cd-26c618d741fa")
+		(property "Reference" "R25"
+			(at 171.45 66.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 171.45 68.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 169.926 67.564 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4360,7 +4752,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 63.5 86.36 0)
+			(at 168.91 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4370,8 +4762,19 @@
 				)
 			)
 		)
-		(property "Power Rating Min" "1/8 W"
-			(at 63.5 86.36 90)
+		(property "Part#" "RK73H2ATTD1002F"
+			(at 168.91 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "2019-RK73H2ATTD1002FCT-ND"
+			(at 168.91 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4382,15 +4785,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "5c494eee-fa9c-4619-8a02-1571c198f58f")
+			(uuid "e7893d5b-c50c-444f-9e52-7bb96ea4e0b3")
 		)
 		(pin "2"
-			(uuid "52bb1943-46e4-4d87-8c63-e75d5590630b")
+			(uuid "1f933d9d-9d1e-4db0-bb22-ae5d336bfc56")
 		)
 		(instances
 			(project "Wingsail_PCB_2027"
 				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
-					(reference "R12")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -4429,7 +4832,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 90.17 59.3852 0)
 			(hide yes)
 			(show_name no)
@@ -4453,6 +4856,28 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 93.98 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part#" "GMC21X7R683K50NT"
+			(at 93.98 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "4713-GMC21X7R683K50NTCT-ND"
+			(at 93.98 58.42 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4509,7 +4934,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 194.31 83.5152 0)
 			(hide yes)
 			(show_name no)
@@ -4623,7 +5048,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 141.224 120.904 90)
 			(hide yes)
 			(show_name no)
@@ -4647,6 +5072,28 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 140.97 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part#" "RK73H2ATTD4701F"
+			(at 140.97 121.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "2019-RK73H2ATTD4701FCT-ND"
+			(at 140.97 121.92 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4828,87 +5275,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 140.97 130.81 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "210416c0-e948-4b2e-beea-709930794b8a")
-		(property "Reference" "R27"
-			(at 141.478 126.238 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 142.2399 128.27 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 141.224 129.794 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 140.97 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ce47bafc-e675-46e7-ab46-4cdd62e65319")
-		)
-		(pin "1"
-			(uuid "74fa2581-07bd-4102-9279-46e5f09b04a1")
-		)
-		(instances
-			(project "Wingsail_PCB_2027"
-				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
-					(reference "R27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 140.97 113.03 270)
 		(unit 1)
@@ -4939,7 +5305,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 137.16 113.9952 0)
 			(hide yes)
 			(show_name no)
@@ -4972,6 +5338,28 @@
 				)
 			)
 		)
+		(property "Part#" "CL21C101JCANNNC"
+			(at 140.97 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "1276-1261-1-ND"
+			(at 140.97 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1f387024-db47-407a-93e4-367895854950")
 		)
@@ -4982,6 +5370,109 @@
 			(project "Wingsail_PCB_2027"
 				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
 					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 69.85 67.31 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2429b41f-68b0-4557-ab44-9f479796c0c8")
+		(property "Reference" "C1"
+			(at 72.644 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "470n"
+			(at 72.644 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 68.8848 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 69.85 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part#" "CL21B474KAFNNNG"
+			(at 69.85 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "1276-6480-1-ND"
+			(at 69.85 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a2a876eb-7392-403d-be7c-3574d8b5c4e6")
+		)
+		(pin "1"
+			(uuid "4da01bba-417c-427a-98e5-4e1bd8cfbca0")
+		)
+		(instances
+			(project "Wingsail_PCB_2027"
+				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -5018,7 +5509,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 63.754 62.484 90)
 			(hide yes)
 			(show_name no)
@@ -5062,6 +5553,28 @@
 				)
 			)
 		)
+		(property "Part#" "RK73H2ATTD39R0F"
+			(at 63.5 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "2019-RK73H2ATTD39R0FCT-ND"
+			(at 63.5 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f21ab5c2-b52f-4c44-9f29-849ef8677b93")
 		)
@@ -5079,7 +5592,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 69.85 67.31 180)
+		(at 115.57 127 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5087,31 +5600,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "2918c5ff-502c-4639-a621-0e9f82b326a9")
-		(property "Reference" "C15"
-			(at 72.644 66.04 0)
+		(uuid "2af0899c-1759-4f58-88ee-e170affd8334")
+		(property "Reference" "C21"
+			(at 115.57 132.842 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "470n"
-			(at 72.644 68.58 0)
+		(property "Value" "4.7u"
+			(at 115.57 130.302 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 68.8848 63.5 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 111.76 127.9652 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5122,7 +5633,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 67.31 0)
+			(at 115.57 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5133,7 +5644,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 69.85 67.31 0)
+			(at 115.57 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5143,54 +5654,8 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "e836fc85-928d-4205-a13d-f31a20e86d6e")
-		)
-		(pin "1"
-			(uuid "ce07853c-514b-42cc-bbeb-6585b5cff522")
-		)
-		(instances
-			(project "Wingsail_PCB_2027"
-				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
-					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 111.76 135.89 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2aee3269-b9f2-47b7-81f2-ebd4816d12f6")
-		(property "Reference" "R23"
-			(at 114.3 135.89 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22"
-			(at 116.84 135.89 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 112.776 136.144 90)
+		(property "Part#" "GRM219R6YA475KA73D"
+			(at 115.57 127 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5200,19 +5665,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 111.76 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 111.76 135.89 0)
+		(property "Digikey#" "490-7208-1-ND"
+			(at 115.57 127 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5223,96 +5677,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "73b044b0-4246-48b2-82e1-41e75cf9aa79")
+			(uuid "692e876d-5ea5-4b0d-94db-f7cbe56bbac8")
 		)
 		(pin "2"
-			(uuid "fe01b999-7f3b-4009-8fe3-657ab3c424cf")
+			(uuid "afcd2b0e-e3eb-4aed-900a-d5957cf13c60")
 		)
 		(instances
 			(project "Wingsail_PCB_2027"
 				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
-					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 69.85 97.79 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2c4969c8-e34d-4fb2-bd9a-fc7dd0b73ec1")
-		(property "Reference" "C19"
-			(at 72.644 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "470n"
-			(at 72.644 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.8848 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 69.85 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f832b685-9858-4e11-b066-cccc5e23ea62")
-		)
-		(pin "1"
-			(uuid "3c7f29ec-9b65-497c-9d7c-266007418542")
-		)
-		(instances
-			(project "Wingsail_PCB_2027"
-				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
-					(reference "C19")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -5352,7 +5725,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 211.7852 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -5466,7 +5839,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 161.29 54.9148 0)
 			(hide yes)
 			(show_name no)
@@ -5557,7 +5930,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "46454f1b-d85b-4e91-bd5f-4a68691832c7")
+		(uuid "451a8980-c303-46ed-aa2c-ddbce57d188c")
 		(property "Reference" "R14"
 			(at 63.246 99.568 90)
 			(show_name no)
@@ -5578,7 +5951,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 63.754 100.584 90)
 			(hide yes)
 			(show_name no)
@@ -5622,16 +5995,348 @@
 				)
 			)
 		)
+		(property "Part#" "RK73H2ATTD39R0F"
+			(at 63.5 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "2019-RK73H2ATTD39R0FCT-ND"
+			(at 63.5 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "65309443-9e3e-420c-9797-76e22467cc80")
+			(uuid "19cb52d0-efe1-4bf3-ad44-048f090f540e")
 		)
 		(pin "2"
-			(uuid "8c22f620-7267-4a16-a623-2425fcb652ef")
+			(uuid "f492bcbc-1d86-4641-a8fd-ac282c66634f")
 		)
 		(instances
 			(project "Wingsail_PCB_2027"
 				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 140.97 130.81 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "49731449-0255-4e9b-bc74-e67ec604676f")
+		(property "Reference" "R17"
+			(at 141.478 126.238 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 142.2399 128.27 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 141.224 129.794 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 140.97 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part#" "RK73H2ATTD4701F"
+			(at 140.97 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "2019-RK73H2ATTD4701FCT-ND"
+			(at 140.97 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "44bbec47-53de-43dc-85cd-90497411f3fc")
+		)
+		(pin "1"
+			(uuid "9ab5d0b4-1e89-40e5-8d9f-cf62bdd1c967")
+		)
+		(instances
+			(project "Wingsail_PCB_2027"
+				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 69.85 74.93 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4d471ced-923a-4a99-a48f-79416dd6b774")
+		(property "Reference" "C15"
+			(at 72.644 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "470n"
+			(at 72.644 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 68.8848 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 69.85 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part#" "CL21B474KAFNNNG"
+			(at 69.85 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "1276-6480-1-ND"
+			(at 69.85 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "52360ed2-0cba-4854-8f4e-073b9fee67c8")
+		)
+		(pin "1"
+			(uuid "ea567900-b89c-4ac9-9fa7-9413118b0481")
+		)
+		(instances
+			(project "Wingsail_PCB_2027"
+				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 153.67 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4da4037d-de96-4caf-9d63-b135c242156e")
+		(property "Reference" "R23"
+			(at 156.21 43.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2"
+			(at 156.21 45.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 154.686 44.704 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 153.67 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part#" "RK73H2ATTD2R20F"
+			(at 153.67 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "2019-RK73H2ATTD2R20FCT-ND"
+			(at 153.67 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "357a4c84-c4d1-404e-8d45-6845a2971fec")
+		)
+		(pin "2"
+			(uuid "7450c3ee-57da-45b3-b81d-1b7b416662dc")
+		)
+		(instances
+			(project "Wingsail_PCB_2027"
+				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -5669,7 +6374,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
 			(at 86.36 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -5702,6 +6407,28 @@
 				)
 			)
 		)
+		(property "Part#" "MLZ2012N1R0LT000"
+			(at 86.36 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "445-6756-1-ND"
+			(at 86.36 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "925d05c6-7856-4ffb-9e4d-d9293ee0dd7b")
 		)
@@ -5712,180 +6439,6 @@
 			(project "Wingsail_PCB_2027"
 				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
 					(reference "L2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 194.31 86.36 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5617e88c-3b33-48fb-9416-95375f6136d5")
-		(property "Reference" "R16"
-			(at 195.834 86.106 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 195.834 88.646 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.326 86.614 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 194.31 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d89ef39d-bee3-4e56-ac38-31f2c2d754f7")
-		)
-		(pin "2"
-			(uuid "a47f33bb-bcf3-4080-b8c5-102c85a1be17")
-		)
-		(instances
-			(project "Wingsail_PCB_2027"
-				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-Resistor:R")
-		(at 153.67 44.45 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "580ad5a4-7c6f-4830-844c-3364d0686f4b")
-		(property "Reference" "R21"
-			(at 156.21 43.1799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "2.2"
-			(at 156.21 45.7199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
-			(at 158.242 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 162.56 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 165.1 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PROD_ID" "RES-07856"
-			(at 160.528 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ec598020-74c6-4d83-9d97-dbb137618f97")
-		)
-		(pin "2"
-			(uuid "f3720a95-b49e-4cbb-88ba-bdf9302b69f0")
-		)
-		(instances
-			(project "Wingsail_PCB_2027"
-				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
-					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -6057,8 +6610,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 140.97 139.7 90)
+		(lib_id "Device:C")
+		(at 69.85 97.79 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6066,31 +6619,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "5f3e6ab5-820d-46d5-8432-da0c7e5084b5")
-		(property "Reference" "R26"
-			(at 141.478 135.128 90)
+		(uuid "65e6fa2e-9650-4e4f-a0c6-88ffedbbe9be")
+		(property "Reference" "C17"
+			(at 72.644 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "4.7k"
-			(at 142.2399 137.16 90)
+		(property "Value" "470n"
+			(at 72.644 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 141.224 138.684 90)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 68.8848 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6101,7 +6654,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 139.7 0)
+			(at 69.85 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6111,8 +6664,30 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 140.97 139.7 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 69.85 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part#" "CL21B474KAFNNNG"
+			(at 69.85 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "1276-6480-1-ND"
+			(at 69.85 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6123,15 +6698,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "50c3c43f-ef81-4f73-ad47-98ba0cbf9f4e")
+			(uuid "70b9f47a-193c-46ee-a388-36c0fe4dbedf")
 		)
 		(pin "1"
-			(uuid "b2aadf9f-6c39-4f5f-8a3a-8305fd54d7bb")
+			(uuid "b463553e-1a79-46e2-98ad-64c545e9c09a")
 		)
 		(instances
 			(project "Wingsail_PCB_2027"
 				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
-					(reference "R26")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -6170,7 +6745,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 68.8848 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -6193,6 +6768,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 69.85 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part#" "CL21B474KAFNNNG"
+			(at 69.85 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "1276-6480-1-ND"
 			(at 69.85 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -6317,7 +6914,7 @@
 				)
 			)
 		)
-		(property "Value" ".009"
+		(property "Value" ".018"
 			(at 104.14 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6327,7 +6924,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 103.886 140.716 90)
 			(hide yes)
 			(show_name no)
@@ -6351,6 +6948,28 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 104.14 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part#" "WSHP2818R0180FEA"
+			(at 104.14 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "541-WSHP2818R0180FEACT-ND"
+			(at 104.14 139.7 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6406,7 +7025,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 107.95 131.1148 0)
 			(hide yes)
 			(show_name no)
@@ -6439,6 +7058,28 @@
 				)
 			)
 		)
+		(property "Part#" "CL21B223JBANNNC"
+			(at 104.14 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "1276-1826-1-ND"
+			(at 104.14 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fffe6855-86fb-4a74-b28e-799731eca42c")
 		)
@@ -6449,6 +7090,333 @@
 			(project "Wingsail_PCB_2027"
 				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
 					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 129.54 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7b3e4596-cd1a-471b-9bcf-da1dfb2fc8d2")
+		(property "Reference" "C24"
+			(at 126.238 58.928 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "6.8n"
+			(at 127.762 55.626 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 130.5052 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 129.54 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part#" "0805B682K500CT"
+			(at 129.54 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "1292-1587-1-ND"
+			(at 129.54 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "dcccfdcb-bf20-4899-9a07-03d549034bf5")
+		)
+		(pin "1"
+			(uuid "72b2ff18-f5ab-4072-88de-5100f5322a3e")
+		)
+		(instances
+			(project "Wingsail_PCB_2027"
+				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 63.5 78.74 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7bd3b841-8dec-4f9a-8e48-02e62ccd205e")
+		(property "Reference" "R11"
+			(at 63.246 76.708 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "39"
+			(at 63.5 80.772 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 63.754 77.724 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 63.5 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating Min" "1/8 W"
+			(at 63.5 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part#" "RK73H2ATTD39R0F"
+			(at 63.5 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "2019-RK73H2ATTD39R0FCT-ND"
+			(at 63.5 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ec3d16cf-4a86-468c-8541-7cf339cbfa27")
+		)
+		(pin "2"
+			(uuid "0da9962c-0aef-42db-bcd2-c317fcb1ba87")
+		)
+		(instances
+			(project "Wingsail_PCB_2027"
+				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 63.5 71.12 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "86981d2b-f687-4f3c-9fd5-5581d7a5e98f")
+		(property "Reference" "R10"
+			(at 63.246 69.088 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "39"
+			(at 63.5 73.152 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 63.754 70.104 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 63.5 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating Min" "1/8 W"
+			(at 63.5 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part#" "RK73H2ATTD39R0F"
+			(at 63.5 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "2019-RK73H2ATTD39R0FCT-ND"
+			(at 63.5 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "39976c53-7ae7-4298-9b5d-3d7e9c99ce55")
+		)
+		(pin "2"
+			(uuid "9bc15f9e-edc1-4b2d-8701-32f15a5e84d9")
+		)
+		(instances
+			(project "Wingsail_PCB_2027"
+				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -6534,89 +7502,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 69.85 74.93 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "896595f1-dbf1-45f9-a08f-58dcbd3b7401")
-		(property "Reference" "C16"
-			(at 72.644 73.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "470n"
-			(at 72.644 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.8848 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 69.85 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "45d55590-e876-416b-b5e5-55b299be79a5")
-		)
-		(pin "1"
-			(uuid "1fd5bbdd-078c-42d2-9006-6b3dee4df0ee")
-		)
-		(instances
-			(project "Wingsail_PCB_2027"
-				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
-					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
-		(at 210.82 69.85 0)
+		(at 140.97 139.7 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6624,10 +7511,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8997113b-b529-498f-8860-127a80c5b826")
-		(property "Reference" "R17"
-			(at 213.36 68.5799 0)
+		(uuid "87554668-b8b2-4664-a90b-733b88f6e91f")
+		(property "Reference" "R20"
+			(at 141.478 135.128 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6637,8 +7523,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
-			(at 213.36 71.1199 0)
+		(property "Value" "4.7k"
+			(at 142.2399 137.16 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6648,8 +7534,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 211.836 70.104 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 141.224 138.684 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6660,7 +7546,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 69.85 0)
+			(at 140.97 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6671,7 +7557,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 210.82 69.85 0)
+			(at 140.97 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6681,16 +7567,38 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "95f0207b-354b-47b6-b6ba-ddac15f6dc7a")
+		(property "Part#" "RK73H2ATTD4701F"
+			(at 140.97 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "2019-RK73H2ATTD4701FCT-ND"
+			(at 140.97 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "2"
-			(uuid "4e0b6ae3-64fc-497e-b078-462419e85085")
+			(uuid "9b1b4f47-a942-44c1-812c-7e39a2cf87f8")
+		)
+		(pin "1"
+			(uuid "6875d883-2e6d-4024-8bd9-492e2dd3417b")
 		)
 		(instances
 			(project "Wingsail_PCB_2027"
 				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
-					(reference "R17")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -6698,7 +7606,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 63.5 93.98 90)
+		(at 146.05 44.45 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6706,9 +7614,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8aeeb210-02d3-482a-b1f7-7981d0d2b1cf")
-		(property "Reference" "R13"
-			(at 63.246 91.948 90)
+		(uuid "89e509b1-9e59-4f51-8815-de7833ba982e")
+		(property "Reference" "R21"
+			(at 150.876 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6717,8 +7625,8 @@
 				)
 			)
 		)
-		(property "Value" "39"
-			(at 63.5 96.012 90)
+		(property "Value" "2M"
+			(at 148.336 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6727,8 +7635,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 63.754 92.964 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 145.034 44.196 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6739,7 +7647,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 93.98 0)
+			(at 146.05 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6750,7 +7658,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 63.5 93.98 0)
+			(at 146.05 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6760,8 +7668,8 @@
 				)
 			)
 		)
-		(property "Power Rating Min" "1/8 W"
-			(at 63.5 93.98 90)
+		(property "Part#" "RK73H2ATTD2004F"
+			(at 146.05 44.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6771,16 +7679,130 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "c2fce96c-6676-42c4-a1c9-c1e5a5597e47")
+		(property "Digikey#" "2019-RK73H2ATTD2004FCT-ND"
+			(at 146.05 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "2"
-			(uuid "d2f83c08-62df-4ed0-90a1-12d75ff240bb")
+			(uuid "8520aacf-393a-44a7-ac10-d8d103a07730")
+		)
+		(pin "1"
+			(uuid "0e708462-f1ff-4a7c-beb6-94fa6d97959c")
 		)
 		(instances
 			(project "Wingsail_PCB_2027"
 				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
-					(reference "R13")
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 187.96 93.98 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8caf435a-86e0-47b6-a8ec-feafa3f17701")
+		(property "Reference" "R26"
+			(at 183.388 93.472 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 185.42 92.7101 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 186.944 93.726 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 187.96 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part#" "RK73H2ATTD4701F"
+			(at 187.96 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "2019-RK73H2ATTD4701FCT-ND"
+			(at 187.96 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cb2cd4b1-be67-4381-9dc4-3c825dbc929c")
+		)
+		(pin "1"
+			(uuid "aaa21f77-b085-4531-9a2f-50ddb79bc0d8")
+		)
+		(instances
+			(project "Wingsail_PCB_2027"
+				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -6859,256 +7881,6 @@
 			(project "Wingsail_PCB_2027"
 				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
 					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 115.57 127 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "910950ff-19e3-4c01-81f3-3ac5b34c73f7")
-		(property "Reference" "C30"
-			(at 118.11 132.08 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7u"
-			(at 118.11 129.54 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 127.9652 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 115.57 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "89834f2a-a570-44b1-bdaf-45bc8507c4e5")
-		)
-		(pin "2"
-			(uuid "7152ab84-5d0a-47ef-b6f8-991009b816e6")
-		)
-		(instances
-			(project "Wingsail_PCB_2027"
-				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
-					(reference "C30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 69.85 82.55 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "93ba50e7-a7b2-4de1-93a7-53d7d50580df")
-		(property "Reference" "C17"
-			(at 72.644 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "470n"
-			(at 72.644 83.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.8848 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 69.85 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "57a1cc76-fb9d-4534-897f-798b8a5c63cf")
-		)
-		(pin "1"
-			(uuid "7bfe7d18-0544-45f6-bc43-d33bf95a0635")
-		)
-		(instances
-			(project "Wingsail_PCB_2027"
-				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
-					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 63.5 78.74 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "97941d07-1d71-4c96-81c6-12380aa0047f")
-		(property "Reference" "R11"
-			(at 63.246 76.708 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "39"
-			(at 63.5 80.772 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.754 77.724 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 63.5 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power Rating Min" "1/8 W"
-			(at 63.5 78.74 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ea268cc5-d32c-4957-b95f-a11f2bd7f19a")
-		)
-		(pin "2"
-			(uuid "48dfe347-2497-4167-b57f-ae0bc14e8a7e")
-		)
-		(instances
-			(project "Wingsail_PCB_2027"
-				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
-					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -7226,7 +7998,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 88.9 49.8348 0)
 			(hide yes)
 			(show_name no)
@@ -7302,88 +8074,6 @@
 			(project "Wingsail_PCB_2027"
 				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
 					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 168.91 67.31 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a2cb4cfb-f57a-4195-ac00-a094128b30e7")
-		(property "Reference" "R15"
-			(at 171.45 66.0399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 171.45 68.5799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.894 67.056 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 168.91 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ee113bca-f139-488c-9610-5527f2e7d8de")
-		)
-		(pin "1"
-			(uuid "2fc5ec9b-62df-40fd-986c-f76e53522a94")
-		)
-		(instances
-			(project "Wingsail_PCB_2027"
-				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
-					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -7548,8 +8238,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 104.14 121.92 270)
+		(lib_id "Device:R_US")
+		(at 63.5 86.36 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7557,9 +8247,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "afad8157-8b91-4b1c-a1ee-96a6bdfd3c6b")
-		(property "Reference" "C31"
-			(at 103.886 118.11 90)
+		(uuid "ae15beef-4456-4a83-97d9-3deadcb4c5b4")
+		(property "Reference" "R12"
+			(at 63.246 84.328 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7568,8 +8258,8 @@
 				)
 			)
 		)
-		(property "Value" "4.7u"
-			(at 103.886 115.57 90)
+		(property "Value" "39"
+			(at 63.5 88.392 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7578,8 +8268,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 100.33 122.8852 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 63.754 85.344 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7590,7 +8280,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 121.92 0)
+			(at 63.5 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7600,8 +8290,41 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 104.14 121.92 0)
+		(property "Description" "Resistor, US symbol"
+			(at 63.5 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating Min" "1/8 W"
+			(at 63.5 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part#" "RK73H2ATTD39R0F"
+			(at 63.5 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "2019-RK73H2ATTD39R0FCT-ND"
+			(at 63.5 86.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7612,96 +8335,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "eafa482d-d627-4578-9796-ec412898f402")
+			(uuid "00cfa30b-49b4-4cb9-bdcd-cee8735fd2a4")
 		)
 		(pin "2"
-			(uuid "430f5d32-d8b1-45af-bd48-0fe9ccc76363")
+			(uuid "c08e3bbb-6566-4fe5-b352-93cea6ed38ab")
 		)
 		(instances
 			(project "Wingsail_PCB_2027"
 				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
-					(reference "C31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 129.54 57.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b08bd446-25b3-4670-b20f-2145a3c67dc6")
-		(property "Reference" "C24"
-			(at 126.238 58.928 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "6.8n"
-			(at 131.318 55.118 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.5052 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 129.54 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e0891c01-d65d-4469-8c29-8abd457740c3")
-		)
-		(pin "1"
-			(uuid "ebc3dbc1-1d01-453b-a851-125c63cc80e0")
-		)
-		(instances
-			(project "Wingsail_PCB_2027"
-				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
-					(reference "C24")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -7780,87 +8422,6 @@
 			(project "Wingsail_PCB_2027"
 				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
 					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 187.96 93.98 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b3b78239-7463-42f1-9993-e69db72f190f")
-		(property "Reference" "R29"
-			(at 192.532 94.488 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 190.5 95.2499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 188.976 94.234 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 187.96 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5f90afc5-939d-4259-81d7-94d197155e69")
-		)
-		(pin "1"
-			(uuid "7c5d9b32-86d7-4fb2-9e57-1f1e293281fb")
-		)
-		(instances
-			(project "Wingsail_PCB_2027"
-				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
-					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -7955,6 +8516,28 @@
 		)
 		(property "Digikey Link" "https://www.digikey.com/en/products/detail/stmicroelectronics/BAT54SWFILM/1037674"
 			(at 78.74 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part#" "BAT54SWFILM"
+			(at 78.74 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "497-14153-1-ND"
+			(at 78.74 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8089,7 +8672,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 88.9 126.6952 0)
 			(hide yes)
 			(show_name no)
@@ -8113,6 +8696,28 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 92.71 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part#" "GRM219R6YA475KA73D"
+			(at 92.71 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "490-7208-1-ND"
+			(at 92.71 125.73 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8168,7 +8773,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 126.746 49.276 90)
 			(hide yes)
 			(show_name no)
@@ -8201,6 +8806,28 @@
 				)
 			)
 		)
+		(property "Part#" "RK73H2ATTD2004F"
+			(at 127 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "2019-RK73H2ATTD2004FCT-ND"
+			(at 127 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "33a87929-a68a-41f7-8dbc-6a09754a761f")
 		)
@@ -8211,6 +8838,107 @@
 			(project "Wingsail_PCB_2027"
 				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 104.14 121.92 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c6d4ee5b-e4e5-42d2-8f1f-04719022f530")
+		(property "Reference" "C19"
+			(at 104.14 117.094 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7u"
+			(at 103.632 118.618 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 100.33 122.8852 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 104.14 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part#" "GRM219R6YA475KA73D"
+			(at 104.14 121.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "490-7208-1-ND"
+			(at 104.14 121.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2f1cedad-806c-4de4-9d63-42ebc3facc7d")
+		)
+		(pin "2"
+			(uuid "89052e43-6aea-4811-9974-d5befedd63e6")
+		)
+		(instances
+			(project "Wingsail_PCB_2027"
+				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -8289,96 +9017,6 @@
 			(project "Wingsail_PCB_2027"
 				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
 					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 63.5 71.12 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c8b70849-885c-4e57-a18b-86011ef22a57")
-		(property "Reference" "R10"
-			(at 63.246 69.088 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "39"
-			(at 63.5 73.152 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.754 70.104 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 63.5 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power Rating Min" "1/8 W"
-			(at 63.5 71.12 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "417f40b3-5a4b-42e3-8364-a3dc52fbde06")
-		)
-		(pin "2"
-			(uuid "8841a9e4-7105-4461-b551-1295953d2936")
-		)
-		(instances
-			(project "Wingsail_PCB_2027"
-				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
-					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -8542,8 +9180,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SparkFun-Resistor:R")
-		(at 146.05 44.45 90)
+		(lib_id "Device:R_US")
+		(at 111.76 135.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8551,32 +9189,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d58a7bd2-6406-481f-9a04-904640dc8e47")
-		(property "Reference" "R20"
-			(at 148.59 43.1799 90)
+		(uuid "d32c0208-04db-463a-8a64-776663f1038a")
+		(property "Reference" "R16"
+			(at 106.934 135.89 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "2M"
-			(at 148.59 45.7199 90)
+		(property "Value" "22"
+			(at 109.474 135.89 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
-			(at 150.622 44.45 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 112.776 136.144 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8586,8 +9221,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 154.94 45.72 0)
+		(property "Datasheet" ""
+			(at 111.76 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8597,8 +9232,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 157.48 44.45 0)
+		(property "Description" "Resistor, US symbol"
+			(at 111.76 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8608,8 +9243,19 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RES-07856"
-			(at 152.908 44.45 0)
+		(property "Part#" "RK73H2ATTD22R0F"
+			(at 111.76 135.89 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "2019-RK73H2ATTD22R0FCT-ND"
+			(at 111.76 135.89 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8620,15 +9266,230 @@
 			)
 		)
 		(pin "1"
-			(uuid "299d6f59-d942-49a7-a15c-39c8419e682a")
+			(uuid "e1f99b42-f81a-46b3-ade9-d0f9c652a1c9")
 		)
 		(pin "2"
-			(uuid "46c016bb-c271-4236-bee8-0a2c4f73f9a8")
+			(uuid "aa9e1f85-b6f1-47c1-b560-c1f07cabbfbd")
 		)
 		(instances
 			(project "Wingsail_PCB_2027"
 				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
-					(reference "R20")
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 210.82 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d4e4ff87-efc6-4db7-a236-2f37d6a44168")
+		(property "Reference" "R29"
+			(at 212.344 69.596 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 212.344 72.136 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 211.836 70.104 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 210.82 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part#" "RK73H2ATTD1003F"
+			(at 210.82 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "2019-RK73H2ATTD1003FCT-ND"
+			(at 210.82 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "551aa2f5-7560-44f0-b120-bfd25557c617")
+		)
+		(pin "2"
+			(uuid "c66057ff-b7c6-479b-8fa5-ebd03f3ff100")
+		)
+		(instances
+			(project "Wingsail_PCB_2027"
+				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 63.5 93.98 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d839f3be-9a56-4d59-9ed7-1f2bf242aff8")
+		(property "Reference" "R13"
+			(at 63.246 91.948 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "39"
+			(at 63.5 96.012 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 63.754 92.964 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 63.5 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating Min" "1/8 W"
+			(at 63.5 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part#" "RK73H2ATTD39R0F"
+			(at 63.5 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "2019-RK73H2ATTD39R0FCT-ND"
+			(at 63.5 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9fcde49e-7fb3-476c-8de5-97b8f8d444f3")
+		)
+		(pin "2"
+			(uuid "1fa67000-4bc7-445e-97fd-21f98b96c859")
+		)
+		(instances
+			(project "Wingsail_PCB_2027"
+				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -8707,6 +9568,86 @@
 			(project "Wingsail_PCB_2027"
 				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
 					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 25.4 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e28097a2-8872-4da7-a8f2-c8615caa7513")
+		(property "Reference" "J7"
+			(at 26.035 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Battery XT60"
+			(at 26.035 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 25.4 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "acd50a2c-b7b8-4150-9db0-4ded5bb34304")
+		)
+		(pin "1"
+			(uuid "9bff2310-608a-47d2-8948-f6b016c2494b")
+		)
+		(instances
+			(project "Wingsail_PCB_2027"
+				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -8792,85 +9733,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 167.64 105.41 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e454b193-a772-4cd7-a0e3-644790cf0c60")
-		(property "Reference" "C32"
-			(at 163.83 105.664 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7u"
-			(at 161.29 105.664 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.6052 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 167.64 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4f71e5f5-25e7-4474-916e-39cf925b9f21")
-		)
-		(pin "2"
-			(uuid "a5b00804-70c1-4c24-adde-1bf36f0bcdd6")
-		)
-		(instances
-			(project "Wingsail_PCB_2027"
-				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
-					(reference "C32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 96.52 135.89 0)
 		(unit 1)
@@ -8901,7 +9763,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 97.536 136.144 90)
 			(hide yes)
 			(show_name no)
@@ -8934,6 +9796,28 @@
 				)
 			)
 		)
+		(property "Part#" "RK73H2ATTD22R0F"
+			(at 96.52 135.89 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "2019-RK73H2ATTD22R0FCT-ND"
+			(at 96.52 135.89 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "766d4b17-b1e2-4319-b0ab-c976f7ea1cec")
 		)
@@ -8944,6 +9828,210 @@
 			(project "Wingsail_PCB_2027"
 				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
 					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 194.31 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ed07afac-4efb-4260-872f-4bb52447f146")
+		(property "Reference" "R27"
+			(at 195.834 86.106 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 195.834 88.646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 195.326 86.614 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 194.31 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part#" "RK73H2ATTD1003F"
+			(at 194.31 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "2019-RK73H2ATTD1003FCT-ND"
+			(at 194.31 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1d3f7749-a562-4657-85d5-ae3fdbe00ffa")
+		)
+		(pin "2"
+			(uuid "824b4edb-cfca-4ee4-b379-8830cc5a3185")
+		)
+		(instances
+			(project "Wingsail_PCB_2027"
+				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 167.64 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ef856e00-3a7c-47a6-b2ec-b6396fde50c1")
+		(property "Reference" "C25"
+			(at 172.466 105.918 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7u"
+			(at 172.466 103.886 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 168.6052 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 167.64 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part#" "GRM219R6YA475KA73D"
+			(at 167.64 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "490-7208-1-ND"
+			(at 167.64 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c3f69073-e4e2-4107-a719-044f51964415")
+		)
+		(pin "2"
+			(uuid "a93ef846-0357-4a97-be9d-afc6fc48c6b0")
+		)
+		(instances
+			(project "Wingsail_PCB_2027"
+				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -9058,7 +10146,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN50P500X500X100-33N-D"
+		(property "Footprint" "L9961TR:QFN50P500X500X100-33N-D"
 			(at 209.22 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -9175,6 +10263,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "Part#" "L9961TR"
+			(at 121.92 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "497-L9961TRCT-ND"
+			(at 121.92 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "20"
@@ -9318,7 +10428,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 173.736 90.424 90)
 			(hide yes)
 			(show_name no)
@@ -9341,6 +10451,28 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 172.72 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part#" "RK73H2ATTD1003F"
+			(at 172.72 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "2019-RK73H2ATTD1003FCT-ND"
 			(at 172.72 90.17 0)
 			(hide yes)
 			(show_name no)

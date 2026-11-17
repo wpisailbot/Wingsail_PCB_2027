@@ -6255,7 +6255,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 118.364 99.314 90)
 			(hide yes)
 			(show_name no)
@@ -6369,7 +6369,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 193.04 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -6456,7 +6456,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 222.25 56.1848 0)
 			(hide yes)
 			(show_name no)
@@ -6568,7 +6568,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 92.964 101.854 90)
 			(hide yes)
 			(show_name no)
@@ -6672,7 +6672,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 128.5748 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -7015,7 +7015,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT65P210X110-6N"
+		(property "Footprint" "74LVC1T45DW-7:SOT65P210X110-6N"
 			(at 240.03 195.25 0)
 			(hide yes)
 			(show_name no)
@@ -7449,7 +7449,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 218.694 62.484 90)
 			(hide yes)
 			(show_name no)
@@ -7553,7 +7553,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 138.43 93.0148 0)
 			(hide yes)
 			(show_name no)
@@ -8203,7 +8203,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT65P210X110-6N"
+		(property "Footprint" "74LVC1T45DW-7:SOT65P210X110-6N"
 			(at 240.03 173.66 0)
 			(hide yes)
 			(show_name no)
@@ -8404,7 +8404,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 200.3552 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -8505,7 +8505,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 118.364 96.774 90)
 			(hide yes)
 			(show_name no)
@@ -8969,7 +8969,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 140.6652 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -9176,7 +9176,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
 			(at 130.81 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -9264,7 +9264,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 57.404 106.934 90)
 			(hide yes)
 			(show_name no)
@@ -9368,7 +9368,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 130.81 105.1052 0)
 			(hide yes)
 			(show_name no)

@@ -1357,7 +1357,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT65P210X110-6N"
+		(property "Footprint" "74LVC1T45DW-7:SOT65P210X110-6N"
 			(at 167.64 192.71 0)
 			(hide yes)
 			(show_name no)
@@ -2268,7 +2268,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT65P210X110-6N"
+		(property "Footprint" "74LVC1T45DW-7:SOT65P210X110-6N"
 			(at 167.64 139.37 0)
 			(hide yes)
 			(show_name no)
@@ -2468,7 +2468,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT65P210X110-6N"
+		(property "Footprint" "74LVC1T45DW-7:SOT65P210X110-6N"
 			(at 167.64 174.93 0)
 			(hide yes)
 			(show_name no)
@@ -2830,7 +2830,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT65P210X110-6N"
+		(property "Footprint" "74LVC1T45DW-7:SOT65P210X110-6N"
 			(at 167.64 157.15 0)
 			(hide yes)
 			(show_name no)
@@ -3030,7 +3030,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP65P490X110-8N"
+		(property "Footprint" "MCP3202T-CI_MS:SOP65P490X110-8N"
 			(at 118.11 178.74 0)
 			(hide yes)
 			(show_name no)
