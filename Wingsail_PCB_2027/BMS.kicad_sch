@@ -2525,12 +2525,6 @@
 		)
 	)
 	(junction
-		(at 194.31 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "048ff995-134c-4d96-b675-f6f759b43a1e")
-	)
-	(junction
 		(at 96.52 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2541,12 +2535,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18e3c258-911f-4c40-9c7e-050ee78dc107")
-	)
-	(junction
-		(at 153.67 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "193f498f-aeb2-4b5d-a943-06bb3b8e9516")
 	)
 	(junction
 		(at 96.52 121.92)
@@ -2577,6 +2565,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "391fc4ca-80cd-45ce-9ebf-cf8c7406e8e6")
+	)
+	(junction
+		(at 194.31 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ac67131-ea84-4f0f-a763-ef0da3db1017")
 	)
 	(junction
 		(at 69.85 101.6)
@@ -2612,7 +2606,13 @@
 		(at 210.82 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "680b355d-4da0-4b45-9360-4223133e7830")
+		(uuid "63deee3e-53a5-48a9-98cd-14315becbec7")
+	)
+	(junction
+		(at 153.67 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c464f1a-2a09-4402-bc91-10ad6f6cf0e8")
 	)
 	(junction
 		(at 111.76 121.92)
@@ -4478,6 +4478,119 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 198.12 82.55 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1566c290-ff1d-4b06-abb8-e372effbe01c")
+		(property "Reference" "C42"
+			(at 198.12 74.93 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 198.12 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 83.5152 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 198.12 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B104KBCNNNC/3886661?s=N4IgjCBcpgLFoDGUBmBDANgZwKYBoQB7KAbRACYBmADgHYaQCwBWW8gTgifdmtngLkAbAAYhzLiCHshHRuFgi%2B1EAF0CABwAuUEAGUtAJwCWAOwDmIAL5MhCEMkjps%2BIqRCV2lOQU%2BUG6iDaugYmFtaCIrDs9sGQIACqpsZaAPIoALI4aFgAroY48rm6pgBi8gC2ZrpgIiKVaAAeNXURIAC05PaORrmuxJBkzGo2HTHQDlC9-e4QqlajdhPGACa67bWScSDyWgCeGoXxOcgLQA"
+			(at 198.12 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "1276-1003-1-ND"
+			(at 198.12 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part#" "CL21B104KBCNNNC"
+			(at 198.12 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6ab4a752-25fb-4917-96ec-0bad370c6827")
+		)
+		(pin "1"
+			(uuid "9e7778ec-b4b1-44f8-97c4-f3795ab3ca59")
+		)
+		(instances
+			(project "Wingsail_PCB_2027"
+				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
+					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 140.97 121.92 90)
 		(unit 1)
@@ -5216,8 +5329,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "430a7b3b-6f35-48aa-9731-c2b59688df8c")
-		(property "Reference" "C26"
+		(uuid "3ab5b954-f09a-48eb-8ad9-d65673997089")
+		(property "Reference" "C41"
 			(at 214.63 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5272,16 +5385,163 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "69b4dd57-de55-4c36-b6e8-80f77dad225a")
+		(property "Digikey link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B104KBCNNNC/3886661?s=N4IgjCBcpgLFoDGUBmBDANgZwKYBoQB7KAbRACYBmADgHYaQCwBWW8gTgifdmtngLkAbAAYhzLiCHshHRuFgi%2B1EAF0CABwAuUEAGUtAJwCWAOwDmIAL5MhCEMkjps%2BIqRCV2lOQU%2BUG6iDaugYmFtaCIrDs9sGQIACqpsZaAPIoALI4aFgAroY48rm6pgBi8gC2ZrpgIiKVaAAeNXURIAC05PaORrmuxJBkzGo2HTHQDlC9-e4QqlajdhPGACa67bWScSDyWgCeGoXxOcgLQA"
+			(at 210.82 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "1276-1003-1-ND"
+			(at 210.82 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part#" "CL21B104KBCNNNC"
+			(at 210.82 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "2"
-			(uuid "2f01eb95-ba2b-497e-8e4f-ab42c2a7076d")
+			(uuid "e1d395f0-980a-4676-99f1-8a62fecacca7")
+		)
+		(pin "1"
+			(uuid "206f3ac5-debb-48f0-a2ae-33d3ec5412ad")
 		)
 		(instances
 			(project "Wingsail_PCB_2027"
 				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
-					(reference "C26")
+					(reference "C41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 157.48 55.88 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "443dea8a-dbd6-4a76-b794-bb106d6bd4a6")
+		(property "Reference" "C43"
+			(at 159.004 59.182 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 158.496 52.324 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 54.9148 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey link" "https://www.digikey.com/en/products/detail/taiyo-yuden/TMK212BBJ106KG-T/2714163?s=N4IgTCBcDaICoFkDSYCMYBCGBSqAMAbEgOIC0cIAugL5A"
+			(at 157.48 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "587-2985-1-ND"
+			(at 157.48 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part#" "TMK212BBJ106KG-T"
+			(at 157.48 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6697d71b-ce6d-4580-a3c0-62e6f2a5c19d")
+		)
+		(pin "1"
+			(uuid "4e6819d2-8eb8-4be0-8339-1715a5bbd076")
+		)
+		(instances
+			(project "Wingsail_PCB_2027"
+				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -5879,86 +6139,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 198.12 82.55 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "64a4aa39-b535-460e-b761-ee7fa2aa4f7e")
-		(property "Reference" "C25"
-			(at 198.12 74.93 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 198.12 77.47 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 201.93 81.5848 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 198.12 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5a5eaa6d-0ee7-4241-a11f-d27d0d57169b")
-		)
-		(pin "2"
-			(uuid "3316219f-30b2-41bd-bf6e-fd701ec89e1e")
-		)
-		(instances
-			(project "Wingsail_PCB_2027"
-				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
-					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 69.85 90.17 180)
 		(unit 1)
 		(body_style 1)
@@ -6269,85 +6449,6 @@
 			(project "Wingsail_PCB_2027"
 				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
 					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 157.48 55.88 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "83106d67-6637-400c-b5b1-ec605a4b4023")
-		(property "Reference" "C27"
-			(at 157.48 50.546 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1u"
-			(at 157.48 53.086 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 161.29 54.9148 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 157.48 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "66a4b564-1cb3-473c-9b57-ecaf3241a3e3")
-		)
-		(pin "1"
-			(uuid "9acfa4d2-adda-45a3-ab35-5f894864dda9")
-		)
-		(instances
-			(project "Wingsail_PCB_2027"
-				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
-					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -7087,6 +7188,120 @@
 			(project "Wingsail_PCB_2027"
 				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 85.09 50.8 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9eea7977-ee58-4867-9edf-d20e8846c131")
+		(property "Reference" "C14"
+			(at 83.058 49.53 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 86.614 47.498 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 49.8348 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 85.09 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey link" "https://www.digikey.com/en/products/detail/taiyo-yuden/TMK212BBJ106KG-T/2714163"
+			(at 85.09 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "587-2985-1-ND"
+			(at 85.09 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part#" "TMK212BBJ106KG-T"
+			(at 85.09 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7cd68bb5-ef9b-429a-92d5-0369f5dc4ce4")
+		)
+		(pin "1"
+			(uuid "dd378810-2288-4eab-96e1-cee333199d8b")
+		)
+		(instances
+			(project "Wingsail_PCB_2027"
+				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -8650,87 +8865,6 @@
 			(project "Wingsail_PCB_2027"
 				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
 					(reference "C32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 85.09 50.8 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e7472f3d-4ab2-4317-8ee0-b44b0f5471ae")
-		(property "Reference" "C21"
-			(at 87.122 54.102 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 85.598 47.498 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 49.8348 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 85.09 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "82fd2f23-93e3-4e6a-b0c0-ec78be48ea94")
-		)
-		(pin "1"
-			(uuid "d63927a3-aba9-45dc-b89d-05b1dd78b2df")
-		)
-		(instances
-			(project "Wingsail_PCB_2027"
-				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
-					(reference "C21")
 					(unit 1)
 				)
 			)

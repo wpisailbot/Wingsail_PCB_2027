@@ -1326,6 +1326,206 @@
 		(uuid "ce568069-c502-48ab-94d7-b942c80019e2")
 	)
 	(symbol
+		(lib_id "74LVC1T45DW-7:74LVC1T45DW-7")
+		(at 138.43 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02f5eece-2d2a-4f13-9aa4-957a92e75d08")
+		(property "Reference" "IC12"
+			(at 154.94 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1T45DW-7"
+			(at 154.94 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT65P210X110-6N"
+			(at 167.64 192.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/74LVC1T45.pdf"
+			(at 167.64 292.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Voltage Level Translator 1-CH Bidirectional 6-Pin SOT-363 T/R"
+			(at 138.43 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.1"
+			(at 167.64 492.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 167.64 592.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "74LVC1T45DW-7"
+			(at 167.64 692.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "621-74LVC1T45DW-7"
+			(at 167.64 792.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/74LVC1T45DW-7?qs=Oxncjon6mbplzGvxR3UXkA%3D%3D"
+			(at 167.64 892.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "74LVC1T45DW-7"
+			(at 167.64 992.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/74lvc1t45dw-7/diodes-incorporated.html?utm_currency=USD&region=nac"
+			(at 167.64 1092.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Part#" "74LVC1T45DW-7"
+			(at 138.43 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "31-74LVC1T45DW-7CT-ND"
+			(at 138.43 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "642add2e-f071-414f-9e86-59fccb37d1dc")
+		)
+		(pin "6"
+			(uuid "3a9e28af-9b91-49e9-bd45-b6695bed2a04")
+		)
+		(pin "5"
+			(uuid "0f470888-b85d-484b-8b38-1a219dfe58df")
+		)
+		(pin "4"
+			(uuid "71bbd56c-20ee-4862-8809-2144a6e7584d")
+		)
+		(pin "2"
+			(uuid "d979316a-fa03-44f9-bda0-1c222523c3c8")
+		)
+		(pin "1"
+			(uuid "ee99a668-d808-48fe-b349-c1754e1d9975")
+		)
+		(instances
+			(project "Wingsail_PCB_2027"
+				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/5c1c20ae-7669-4809-9fa4-9ba7f359480a/ccac33dd-7db4-4875-a2ad-b302c6de4db7"
+					(reference "IC12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 138.43 100.33 270)
 		(unit 1)
@@ -1800,184 +2000,6 @@
 		)
 	)
 	(symbol
-		(lib_id "74LVC1T45DW-7:74LVC1T45DW-7")
-		(at 138.43 62.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4d160d84-e7ad-4934-9ee0-b265c1c39bdf")
-		(property "Reference" "IC7"
-			(at 154.94 54.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74LVC1T45DW-7"
-			(at 154.94 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOT65P210X110-6N"
-			(at 167.64 157.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/74LVC1T45.pdf"
-			(at 167.64 257.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Voltage Level Translator 1-CH Bidirectional 6-Pin SOT-363 T/R"
-			(at 138.43 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "1.1"
-			(at 167.64 457.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 167.64 557.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "74LVC1T45DW-7"
-			(at 167.64 657.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "621-74LVC1T45DW-7"
-			(at 167.64 757.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/74LVC1T45DW-7?qs=Oxncjon6mbplzGvxR3UXkA%3D%3D"
-			(at 167.64 857.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Part Number" "74LVC1T45DW-7"
-			(at 167.64 957.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/74lvc1t45dw-7/diodes-incorporated.html?utm_currency=USD&region=nac"
-			(at 167.64 1057.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "3"
-			(uuid "a26f7485-b67e-4e3a-8514-abb824879cdc")
-		)
-		(pin "6"
-			(uuid "cc78b24c-8b7e-4f47-acbb-f98142a9b7ca")
-		)
-		(pin "5"
-			(uuid "2d6316fd-df7d-47ca-b54a-40cca4ab1e71")
-		)
-		(pin "4"
-			(uuid "a5d2ee71-9d6c-40db-974c-1861b9eea680")
-		)
-		(pin "2"
-			(uuid "4089dfda-125a-430c-869d-bbf54e4dba95")
-		)
-		(pin "1"
-			(uuid "fbf6aea8-04c3-49b9-87b8-4a638b6e8a85")
-		)
-		(instances
-			(project "Wingsail_PCB_2027"
-				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/5c1c20ae-7669-4809-9fa4-9ba7f359480a/ccac33dd-7db4-4875-a2ad-b302c6de4db7"
-					(reference "IC7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 138.43 64.77 270)
 		(unit 1)
@@ -2136,184 +2158,6 @@
 		)
 	)
 	(symbol
-		(lib_id "74LVC1T45DW-7:74LVC1T45DW-7")
-		(at 138.43 97.79 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "64b9d843-2347-44fb-974d-7f047006a6c0")
-		(property "Reference" "IC9"
-			(at 154.94 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74LVC1T45DW-7"
-			(at 154.94 92.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOT65P210X110-6N"
-			(at 167.64 192.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/74LVC1T45.pdf"
-			(at 167.64 292.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Voltage Level Translator 1-CH Bidirectional 6-Pin SOT-363 T/R"
-			(at 138.43 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "1.1"
-			(at 167.64 492.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 167.64 592.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "74LVC1T45DW-7"
-			(at 167.64 692.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "621-74LVC1T45DW-7"
-			(at 167.64 792.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/74LVC1T45DW-7?qs=Oxncjon6mbplzGvxR3UXkA%3D%3D"
-			(at 167.64 892.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Part Number" "74LVC1T45DW-7"
-			(at 167.64 992.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/74lvc1t45dw-7/diodes-incorporated.html?utm_currency=USD&region=nac"
-			(at 167.64 1092.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "3"
-			(uuid "a246ac54-c8df-46cc-b371-4e55675ef4ad")
-		)
-		(pin "6"
-			(uuid "ef31ba6e-0850-4cb1-8308-6275a040a6ec")
-		)
-		(pin "5"
-			(uuid "fcf2489d-a4ab-40c6-97f3-63e601a707bb")
-		)
-		(pin "4"
-			(uuid "668339ce-7891-4eae-ae6f-240241d36568")
-		)
-		(pin "2"
-			(uuid "8ebf0f95-c567-49ba-94c7-17566003747b")
-		)
-		(pin "1"
-			(uuid "49539fea-27d7-4453-87a0-80b5bd629393")
-		)
-		(instances
-			(project "Wingsail_PCB_2027"
-				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/5c1c20ae-7669-4809-9fa4-9ba7f359480a/ccac33dd-7db4-4875-a2ad-b302c6de4db7"
-					(reference "IC9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 171.45 44.45 270)
 		(unit 1)
@@ -2394,6 +2238,206 @@
 	)
 	(symbol
 		(lib_id "74LVC1T45DW-7:74LVC1T45DW-7")
+		(at 138.43 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89f78080-4270-4654-903b-c6e206901adf")
+		(property "Reference" "IC6"
+			(at 154.94 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1T45DW-7"
+			(at 154.94 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT65P210X110-6N"
+			(at 167.64 139.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/74LVC1T45.pdf"
+			(at 167.64 239.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Voltage Level Translator 1-CH Bidirectional 6-Pin SOT-363 T/R"
+			(at 138.43 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.1"
+			(at 167.64 439.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 167.64 539.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "74LVC1T45DW-7"
+			(at 167.64 639.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "621-74LVC1T45DW-7"
+			(at 167.64 739.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/74LVC1T45DW-7?qs=Oxncjon6mbplzGvxR3UXkA%3D%3D"
+			(at 167.64 839.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "74LVC1T45DW-7"
+			(at 167.64 939.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/74lvc1t45dw-7/diodes-incorporated.html?utm_currency=USD&region=nac"
+			(at 167.64 1039.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Part#" "74LVC1T45DW-7"
+			(at 138.43 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "31-74LVC1T45DW-7CT-ND"
+			(at 138.43 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "1db0a07b-6b4a-46cd-a92b-d6fa43f56094")
+		)
+		(pin "6"
+			(uuid "735489ce-a799-4393-aa1e-5d29b06eaf9d")
+		)
+		(pin "5"
+			(uuid "1cdf1727-4b6e-4abb-810c-6a08009b909e")
+		)
+		(pin "4"
+			(uuid "32d25fd5-82c1-4768-98eb-4c142ce6c15c")
+		)
+		(pin "2"
+			(uuid "346bf601-751e-4042-b424-d1a5d99bb8e7")
+		)
+		(pin "1"
+			(uuid "0a6f2a90-a1df-4467-b657-833654b19347")
+		)
+		(instances
+			(project "Wingsail_PCB_2027"
+				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/5c1c20ae-7669-4809-9fa4-9ba7f359480a/ccac33dd-7db4-4875-a2ad-b302c6de4db7"
+					(reference "IC6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74LVC1T45DW-7:74LVC1T45DW-7")
 		(at 138.43 80.01 0)
 		(unit 1)
 		(body_style 1)
@@ -2403,7 +2447,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7ae528d7-1c75-4431-ba99-211e46f52e44")
+		(uuid "8a64deb8-b0cc-48b6-bc06-0ae48886db8f")
 		(property "Reference" "IC8"
 			(at 154.94 72.39 0)
 			(show_name no)
@@ -2543,23 +2587,45 @@
 				(justify left top)
 			)
 		)
+		(property "Part#" "74LVC1T45DW-7"
+			(at 138.43 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "31-74LVC1T45DW-7CT-ND"
+			(at 138.43 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
-			(uuid "70e994d9-4271-4c20-9b06-9247ffc034a3")
+			(uuid "f7d68e73-3964-48b5-9ae8-408d4e1cf0c8")
 		)
 		(pin "6"
-			(uuid "cd4fea0d-65ae-40e1-bb6c-ecc4a2206974")
+			(uuid "9975d58c-e264-4b8d-87a5-ee90b2ce09a8")
 		)
 		(pin "5"
-			(uuid "08caf88d-0af7-4e4e-a028-7f65bde3bd7c")
+			(uuid "5ff69cc4-57b5-4674-a52b-d4b796faf42d")
 		)
 		(pin "4"
-			(uuid "75ea1561-fd7e-4139-91f8-aa1c5dc76fb9")
+			(uuid "51626e09-2f04-4189-b6c9-09cc6ba97652")
 		)
 		(pin "2"
-			(uuid "67d696d3-8cd1-4019-9f8f-d5e3bede259b")
+			(uuid "55b6da1f-27bd-44fe-bf78-1f55670e2af9")
 		)
 		(pin "1"
-			(uuid "5de51abd-db7f-477b-b580-9c23b478cbec")
+			(uuid "9dbd1fbb-37bf-4e8c-b5dc-b907b593e4ce")
 		)
 		(instances
 			(project "Wingsail_PCB_2027"
@@ -2734,7 +2800,7 @@
 	)
 	(symbol
 		(lib_id "74LVC1T45DW-7:74LVC1T45DW-7")
-		(at 138.43 44.45 0)
+		(at 138.43 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2743,9 +2809,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b02c3795-810d-4a7a-8eb7-0f57429faae7")
-		(property "Reference" "IC6"
-			(at 154.94 36.83 0)
+		(uuid "d42597ba-ad2d-4f67-8e36-389a89e1862d")
+		(property "Reference" "IC7"
+			(at 154.94 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2755,7 +2821,7 @@
 			)
 		)
 		(property "Value" "74LVC1T45DW-7"
-			(at 154.94 39.37 0)
+			(at 154.94 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2765,7 +2831,7 @@
 			)
 		)
 		(property "Footprint" "SOT65P210X110-6N"
-			(at 167.64 139.37 0)
+			(at 167.64 157.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2777,7 +2843,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/74LVC1T45.pdf"
-			(at 167.64 239.37 0)
+			(at 167.64 257.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2789,7 +2855,7 @@
 			)
 		)
 		(property "Description" "Voltage Level Translator 1-CH Bidirectional 6-Pin SOT-363 T/R"
-			(at 138.43 44.45 0)
+			(at 138.43 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2800,7 +2866,7 @@
 			)
 		)
 		(property "Height" "1.1"
-			(at 167.64 439.37 0)
+			(at 167.64 457.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2812,7 +2878,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 167.64 539.37 0)
+			(at 167.64 557.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2824,7 +2890,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "74LVC1T45DW-7"
-			(at 167.64 639.37 0)
+			(at 167.64 657.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2836,7 +2902,7 @@
 			)
 		)
 		(property "Mouser Part Number" "621-74LVC1T45DW-7"
-			(at 167.64 739.37 0)
+			(at 167.64 757.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2848,7 +2914,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/74LVC1T45DW-7?qs=Oxncjon6mbplzGvxR3UXkA%3D%3D"
-			(at 167.64 839.37 0)
+			(at 167.64 857.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2860,7 +2926,7 @@
 			)
 		)
 		(property "Arrow Part Number" "74LVC1T45DW-7"
-			(at 167.64 939.37 0)
+			(at 167.64 957.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2872,7 +2938,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/74lvc1t45dw-7/diodes-incorporated.html?utm_currency=USD&region=nac"
-			(at 167.64 1039.37 0)
+			(at 167.64 1057.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2883,28 +2949,50 @@
 				(justify left top)
 			)
 		)
+		(property "Part#" "74LVC1T45DW-7"
+			(at 138.43 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "31-74LVC1T45DW-7CT-ND"
+			(at 138.43 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
-			(uuid "01872fcf-f1de-4d6e-9f05-d40c9f6b3a96")
+			(uuid "d50f6ced-c3fa-4675-858f-2a9eefd5acec")
 		)
 		(pin "6"
-			(uuid "87b5bdec-e4bf-4a64-9ee8-9465c8769f4d")
+			(uuid "54a0a0fc-c9a0-4a72-bf76-b20d9cf3389a")
 		)
 		(pin "5"
-			(uuid "aa6c7929-b3e5-4fd6-9fdd-c50ebe6fe4ce")
+			(uuid "c093fea1-e614-4edf-a6b8-8a40df57a580")
 		)
 		(pin "4"
-			(uuid "85562975-866c-4029-8dc7-fb485fcd263c")
+			(uuid "1fbbf475-2138-4c20-bd12-3d9dd6b90dae")
 		)
 		(pin "2"
-			(uuid "da9e7f0c-a95e-4c2e-af4b-94b88301e603")
+			(uuid "eeee5888-cdb9-4b86-9142-9eb5482e22fc")
 		)
 		(pin "1"
-			(uuid "b44ef476-1bf1-42ea-bbb7-aab1541c4152")
+			(uuid "44e2c6a8-15fe-43ce-80cb-5ed164708449")
 		)
 		(instances
 			(project "Wingsail_PCB_2027"
 				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/5c1c20ae-7669-4809-9fa4-9ba7f359480a/ccac33dd-7db4-4875-a2ad-b302c6de4db7"
-					(reference "IC6")
+					(reference "IC7")
 					(unit 1)
 				)
 			)
@@ -3059,6 +3147,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "Part#" "MCP3202T-CI/MS"
+			(at 83.82 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "MCP3202T-CI/MSCT-ND"
+			(at 83.82 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"

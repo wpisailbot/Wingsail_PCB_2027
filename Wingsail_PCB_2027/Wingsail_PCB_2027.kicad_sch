@@ -27,6 +27,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 92.71) (xy 182.88 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4409becc-a38a-4534-89ea-5e452f16e19e")
+	)
+	(wire
+		(pts
 			(xy 210.82 87.63) (xy 215.9 87.63)
 		)
 		(stroke
@@ -35,8 +45,38 @@
 		)
 		(uuid "4f2ce1d0-ad3f-4cfa-a6a2-7b6aac2720b6")
 	)
+	(wire
+		(pts
+			(xy 171.45 100.33) (xy 182.88 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "824cfb21-754c-442b-8f8e-3855f3115368")
+	)
+	(wire
+		(pts
+			(xy 171.45 96.52) (xy 182.88 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c7806d1-3f51-4629-a765-ee27747dbf5e")
+	)
+	(wire
+		(pts
+			(xy 171.45 104.14) (xy 182.88 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af1a1d3e-abc8-4d6c-94f5-a86f8405db18")
+	)
 	(sheet
-		(at 127.635 49.53)
+		(at 144.78 86.36)
 		(size 26.67 20.955)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -52,7 +92,7 @@
 		)
 		(uuid "5c1c20ae-7669-4809-9fa4-9ba7f359480a")
 		(property "Sheetname" "ESP32"
-			(at 127.635 48.8184 0)
+			(at 144.78 85.6484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -63,7 +103,7 @@
 			)
 		)
 		(property "Sheetfile" "ESP32.kicad_sch"
-			(at 127.635 71.0696 0)
+			(at 144.78 107.8996 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -71,6 +111,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "SCL" output
+			(at 171.45 96.52 0)
+			(uuid "c59b7d37-da0e-4c05-8a87-e5b95c7bd7cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 171.45 92.71 0)
+			(uuid "937402a4-4e1f-4cc9-b061-fdf0cc751e68")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RDY" input
+			(at 171.45 100.33 0)
+			(uuid "5abd6987-c5d7-4180-8f6a-090e9cc1028e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Fault_out" output
+			(at 171.45 104.14 0)
+			(uuid "cba72927-c69a-4f2f-86d6-e46fa520f0ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

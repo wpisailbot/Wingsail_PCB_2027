@@ -644,6 +644,66 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Digikey#",
+          "name": "Digikey#",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PROD_ID",
+          "name": "PROD_ID",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Power Rating Min",
+          "name": "Power Rating Min",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DigiKey Link",
+          "name": "DigiKey Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DigiKey Part Number",
+          "name": "DigiKey Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Digikey #",
+          "name": "Digikey #",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Digikey Number",
+          "name": "Digikey Number",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -694,7 +754,7 @@
         "uuid": "bc6bd6c7-c298-4657-b7be-c4ac293f57b7"
       }
     ],
-    "used_designators": "IC11,R22-30,C2,C4,C6-8,C28-38,#PWR1-3,#PWR10,#PWR57-63",
+    "used_designators": "IC4,IC6-8,IC11-12,R5,R7-8,R22-30,C2-4,C6-8,C13-14,C28-43,#PWR1-3,#PWR10,#PWR57-63",
     "variants": []
   },
   "sheets": [
