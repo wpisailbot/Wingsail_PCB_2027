@@ -501,8 +501,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": {},
-    "netclass_assignments": {},
+    "net_colors": null,
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -754,7 +754,7 @@
         "uuid": "bc6bd6c7-c298-4657-b7be-c4ac293f57b7"
       }
     ],
-    "used_designators": "#PWR1-3,#PWR10,#PWR57-63,C1-4,C6-8,C13-17,C19,C21,C24-25,C28-43,IC4,IC6-8,IC11-12,J7,R5,R7-8,R10-17,R20-30",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -769,10 +769,6 @@
     [
       "5c1c20ae-7669-4809-9fa4-9ba7f359480a",
       "ESP32"
-    ],
-    [
-      "ccac33dd-7db4-4875-a2ad-b302c6de4db7",
-      "ADC"
     ],
     [
       "6af81920-a213-4adf-bd78-a00b59783d7d",
