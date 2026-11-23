@@ -7,4 +7,5 @@
 	(lib (name "MCP3202T-CI_MS") (type "KiCad") (uri "${KIPRJMOD}/Parts/MCP3202T-CI_MS") (options "") (descr ""))
 	(lib (name "UJ20-C-H-G-MSMT-2-P16-TR") (type "KiCad") (uri "${KIPRJMOD}/Parts/UJ20-C-H-G-MSMT-2-P16-TR") (options "") (descr ""))
 	(lib (name "74LVC1T45DW-7") (type "KiCad") (uri "${KIPRJMOD}/Parts/74LVC1T45DW-7") (options "") (descr ""))
+	(lib (name "LM66200DRLR") (type "KiCad") (uri "${KIPRJMOD}/Parts/LM66200DRLR") (options "") (descr ""))
 )
