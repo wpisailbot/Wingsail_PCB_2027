@@ -4499,12 +4499,6 @@
 		(uuid "76bc56c4-d20c-440b-8792-d4f5c1622519")
 	)
 	(junction
-		(at 129.54 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7d183361-6053-460b-9901-ad1eed455810")
-	)
-	(junction
 		(at 182.88 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4605,6 +4599,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf73f409-ac08-44ba-bacc-7ea34f3b7e01")
+	)
+	(junction
+		(at 129.54 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfbc5ebe-e411-4db8-b661-bf7a8793864a")
 	)
 	(junction
 		(at 110.49 97.79)
@@ -4772,16 +4772,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 77.47) (xy 149.86 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b45e3df-3513-4fed-a554-4cc64d7d0a74")
-	)
-	(wire
-		(pts
 			(xy 200.66 83.82) (xy 210.82 83.82)
 		)
 		(stroke
@@ -4802,7 +4792,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 67.31) (xy 110.49 67.31)
+			(xy 106.68 64.77) (xy 110.49 64.77)
 		)
 		(stroke
 			(width 0)
@@ -5072,7 +5062,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 69.85) (xy 129.54 69.85)
+			(xy 106.68 67.31) (xy 129.54 67.31)
 		)
 		(stroke
 			(width 0)
@@ -5262,6 +5252,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 74.93) (xy 149.86 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dbc4e74-e3d9-443f-8b08-4b9a8762dbad")
+	)
+	(wire
+		(pts
 			(xy 86.36 100.33) (xy 114.3 100.33)
 		)
 		(stroke
@@ -5332,7 +5332,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 85.09) (xy 129.54 85.09)
+			(xy 123.19 82.55) (xy 129.54 82.55)
 		)
 		(stroke
 			(width 0)
@@ -6048,7 +6048,7 @@
 	)
 	(global_label "GND_Sens"
 		(shape passive)
-		(at 123.19 85.09 180)
+		(at 123.19 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6058,7 +6058,7 @@
 		)
 		(uuid "58fabb7a-eff4-4e96-91b3-799a2d6065f1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 112.0028 85.09 0)
+			(at 112.0028 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6288,7 +6288,7 @@
 	)
 	(global_label "GND_Sens"
 		(shape passive)
-		(at 106.68 72.39 0)
+		(at 106.68 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6298,7 +6298,7 @@
 		)
 		(uuid "e07a0e4e-41b8-412f-92d5-f5626b508f5d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.8672 72.39 0)
+			(at 117.8672 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6728,107 +6728,6 @@
 			(project "Wingsail_PCB_2027"
 				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/5c1c20ae-7669-4809-9fa4-9ba7f359480a"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 129.54 73.66 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "160e7ac8-a220-48f4-ad60-01b4c618b0fe")
-		(property "Reference" "R33"
-			(at 127 73.66 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 132.08 73.406 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 128.524 73.406 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 129.54 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part#" "RK73H2ATTD1002F"
-			(at 129.54 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey#" "2019-RK73H2ATTD1002FCT-ND"
-			(at 129.54 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "13e6eddb-e0ae-42cd-bfef-5a03ea89a699")
-		)
-		(pin "2"
-			(uuid "76fc81a7-4c94-4101-b172-b4fa39a36ec1")
-		)
-		(instances
-			(project "Wingsail_PCB_2027"
-				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/5c1c20ae-7669-4809-9fa4-9ba7f359480a"
-					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -7595,6 +7494,109 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 129.54 78.74 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4e38a5d8-ea53-43e8-9c49-fb059b1a1ac4")
+		(property "Reference" "R33"
+			(at 124.968 78.232 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 127 77.4701 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 128.524 78.486 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 129.54 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part#" "RK73H2ATTD4701F"
+			(at 129.54 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "2019-RK73H2ATTD4701FCT-ND"
+			(at 129.54 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0f7a8375-1aeb-4b55-82d5-e50b88e21231")
+		)
+		(pin "1"
+			(uuid "aa531b43-4668-42b4-a884-f5a54b61b7db")
+		)
+		(instances
+			(project "Wingsail_PCB_2027"
+				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/5c1c20ae-7669-4809-9fa4-9ba7f359480a"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 207.01 76.2 0)
 		(unit 1)
@@ -7667,107 +7669,6 @@
 			(project "Wingsail_PCB_2027"
 				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/5c1c20ae-7669-4809-9fa4-9ba7f359480a"
 					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 129.54 81.28 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5d8433d3-680e-4b72-ab2d-baa209e03a09")
-		(property "Reference" "R34"
-			(at 127 81.28 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 132.08 81.026 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 128.524 81.026 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 129.54 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part#" "RK73H2ATTD1002F"
-			(at 129.54 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey#" "2019-RK73H2ATTD1002FCT-ND"
-			(at 129.54 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fd4805b9-3687-4056-85e2-868d41d85425")
-		)
-		(pin "2"
-			(uuid "31a90a11-a3dc-47c6-92d9-dcf1f824de69")
-		)
-		(instances
-			(project "Wingsail_PCB_2027"
-				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/5c1c20ae-7669-4809-9fa4-9ba7f359480a"
-					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -8448,6 +8349,109 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 129.54 71.12 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "725bf3ff-30af-4e35-aa83-47034fb11116")
+		(property "Reference" "R34"
+			(at 124.968 70.612 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 127 69.8501 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 128.524 70.866 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 129.54 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part#" "RK73H2ATTD4701F"
+			(at 129.54 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "2019-RK73H2ATTD4701FCT-ND"
+			(at 129.54 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f038eec8-f661-487e-ad3d-3d7e75f35366")
+		)
+		(pin "1"
+			(uuid "fd1a82bc-9b64-49b9-abe1-91523451e1e1")
+		)
+		(instances
+			(project "Wingsail_PCB_2027"
+				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/5c1c20ae-7669-4809-9fa4-9ba7f359480a"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 127 46.99 90)
 		(unit 1)
@@ -8910,7 +8914,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 110.49 67.31 270)
+		(at 110.49 64.77 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8921,7 +8925,7 @@
 		(fields_autoplaced yes)
 		(uuid "a9d9320e-e11c-460a-8418-665fc001427d")
 		(property "Reference" "#PWR011"
-			(at 106.68 67.31 0)
+			(at 106.68 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8932,7 +8936,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 114.3 67.3099 90)
+			(at 114.3 64.7699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8943,7 +8947,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 67.31 0)
+			(at 110.49 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8954,7 +8958,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 67.31 0)
+			(at 110.49 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8965,7 +8969,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 110.49 67.31 0)
+			(at 110.49 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9555,7 +9559,7 @@
 	(symbol
 		(lib_name "Conn_01x03_Pin_2")
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 101.6 69.85 0)
+		(at 101.6 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9566,7 +9570,7 @@
 		(fields_autoplaced yes)
 		(uuid "d2faa6e3-76d7-4599-8836-8d09fee9d85c")
 		(property "Reference" "J5"
-			(at 102.235 62.23 0)
+			(at 102.235 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9576,7 +9580,7 @@
 			)
 		)
 		(property "Value" "MA3"
-			(at 102.235 64.77 0)
+			(at 102.235 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9586,7 +9590,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 69.85 0)
+			(at 101.6 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9597,7 +9601,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 69.85 0)
+			(at 101.6 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9608,7 +9612,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 101.6 69.85 0)
+			(at 101.6 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
