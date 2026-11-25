@@ -3928,7 +3928,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LTST-C171CKT"
+		(property "Value" "LTST-C171GKT"
 			(at 124.46 138.1124 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4135,7 +4135,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "169"
+		(property "Value" "2k"
 			(at 39.37 133.3499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4179,7 +4179,7 @@
 				)
 			)
 		)
-		(property "Digikey#" "2019-RK73H2ATTD1690FCT-ND"
+		(property "Digikey#" "2019-RK73H2ATTD2001FCT-ND"
 			(at 36.83 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -4190,7 +4190,7 @@
 				)
 			)
 		)
-		(property "Part#" "RK73H2ATTD1690F"
+		(property "Part#" "RK73H2ATTD2001F"
 			(at 36.83 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -4352,7 +4352,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "110"
+		(property "Value" "1k"
 			(at 193.04 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4396,7 +4396,7 @@
 				)
 			)
 		)
-		(property "Digikey#" "2019-RK73H2ATTD1100FCT-ND"
+		(property "Digikey#" "2019-RK73H2ATTD1001FCT-ND"
 			(at 190.5 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -4407,7 +4407,7 @@
 				)
 			)
 		)
-		(property "Part#" "RK73H2ATTD1100F"
+		(property "Part#" "RK73H2ATTD1001F"
 			(at 190.5 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -5612,7 +5612,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LTST-C171GKT"
+		(property "Value" "LTST-C171CKT"
 			(at 39.37 124.1424 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5819,7 +5819,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "127"
+		(property "Value" "1k"
 			(at 124.46 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5863,7 +5863,7 @@
 				)
 			)
 		)
-		(property "Digikey#" "2019-RK73H2ATTD1270FCT-ND"
+		(property "Digikey#" "2019-RK73H2ATTD1001FCT-ND"
 			(at 121.92 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -5874,7 +5874,7 @@
 				)
 			)
 		)
-		(property "Part#" "RK73H2ATTD1270F"
+		(property "Part#" "RK73H2ATTD1001F"
 			(at 121.92 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -5923,7 +5923,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LTST-C171GKT"
+		(property "Value" "LTST-C171CKT"
 			(at 194.31 113.3474 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6578,7 +6578,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "3.8u"
 			(at 212.09 31.75 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6632,7 +6632,7 @@
 				)
 			)
 		)
-		(property "Part#" "DR127-4R7-R"
+		(property "Part#" "CSBA1060-3R8M"
 			(at 212.09 34.29 90)
 			(hide yes)
 			(show_name no)
@@ -6643,7 +6643,7 @@
 				)
 			)
 		)
-		(property "Digikey#" "513-1222-1-ND"
+		(property "Digikey#" "4044-CSBA1060-3R8MCT-ND"
 			(at 212.09 34.29 90)
 			(hide yes)
 			(show_name no)
@@ -6886,7 +6886,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "54.9k"
+		(property "Value" "53.6k"
 			(at 224.79 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6930,7 +6930,7 @@
 				)
 			)
 		)
-		(property "Part#" "RK73H2ATTD5492F"
+		(property "Part#" "RK73H2ATTD5362F"
 			(at 222.25 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -6941,7 +6941,7 @@
 				)
 			)
 		)
-		(property "Digikey#" "2019-RK73H2ATTD5492FCT-ND"
+		(property "Digikey#" "2019-RK73H2ATTD5362FCT-ND"
 			(at 222.25 39.37 0)
 			(hide yes)
 			(show_name no)
