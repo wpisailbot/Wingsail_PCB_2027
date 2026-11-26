@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP WSHP2818R0180FEA
+D 18 mOhms +/-1% 10W Chip Resistor Nonstandard Automotive AEC-Q200, Current Sense, Moisture Resistant, Pulse Withstanding Metal Element
+K
+F https://www.vishay.com/docs/30347/wshp2818.pdf
+$ENDCMP
+#
+#End Doc Library
