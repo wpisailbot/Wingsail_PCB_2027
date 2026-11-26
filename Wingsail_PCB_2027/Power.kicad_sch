@@ -561,6 +561,187 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1882,12 +2063,6 @@
 		(uuid "38833ccc-f5e3-4d1b-8fce-07e0f792b649")
 	)
 	(junction
-		(at 138.43 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3b940ed4-47ac-46fb-8a91-daf6083f41bf")
-	)
-	(junction
 		(at 255.27 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1946,6 +2121,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74b93e78-778e-4db4-a02c-d8f738a55e9d")
+	)
+	(junction
+		(at 147.32 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75e548c6-510b-41d1-be5d-65c122215a68")
 	)
 	(junction
 		(at 106.68 123.19)
@@ -2038,10 +2219,22 @@
 		(uuid "b2087121-d558-47d0-a595-ec5500aab0b7")
 	)
 	(junction
+		(at 113.03 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b84171f2-9a5b-45cc-be8f-5afb1cb4520a")
+	)
+	(junction
 		(at 36.83 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9c848f3-6ec4-480f-8171-6c569514e4ea")
+	)
+	(junction
+		(at 138.43 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c422cf52-30ca-4f62-8a90-cb63b3e42a85")
 	)
 	(junction
 		(at 222.25 44.45)
@@ -2074,10 +2267,14 @@
 		(uuid "eaac3276-0c9d-4562-805b-0ac8985b77fd")
 	)
 	(junction
-		(at 146.05 26.67)
+		(at 138.43 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "edaddf94-e9ab-4ebd-8750-9056861e4e34")
+		(uuid "fe9cc08b-4051-4558-a9d4-ccfbc6ea8a84")
+	)
+	(no_connect
+		(at 97.79 135.89)
+		(uuid "22a3b60b-d6f7-419c-82c7-85c390deaf75")
 	)
 	(wire
 		(pts
@@ -2101,7 +2298,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 31.75) (xy 146.05 26.67)
+			(xy 147.32 31.75) (xy 147.32 26.67)
 		)
 		(stroke
 			(width 0)
@@ -2181,7 +2378,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 26.67) (xy 146.05 26.67)
+			(xy 138.43 26.67) (xy 147.32 26.67)
 		)
 		(stroke
 			(width 0)
@@ -2221,6 +2418,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 26.67) (xy 113.03 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c2b8828-33b1-4daa-b73a-16471ee47717")
+	)
+	(wire
+		(pts
 			(xy 162.56 41.91) (xy 154.94 41.91)
 		)
 		(stroke
@@ -2238,6 +2445,16 @@
 			(type default)
 		)
 		(uuid "26c41bfd-8744-41d6-a70c-f84283cb4e35")
+	)
+	(wire
+		(pts
+			(xy 138.43 41.91) (xy 113.03 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "277b5825-7a60-4467-9dc9-55850e5157a3")
 	)
 	(wire
 		(pts
@@ -2321,23 +2538,13 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 39.37) (xy 146.05 41.91)
+			(xy 147.32 39.37) (xy 147.32 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3de1c3f3-d7c2-4972-9929-c2f6595ca132")
-	)
-	(wire
-		(pts
-			(xy 146.05 26.67) (xy 160.02 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f1379d0-8a49-4fe9-892f-f5a740a709b8")
 	)
 	(wire
 		(pts
@@ -2471,7 +2678,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 26.67) (xy 138.43 26.67)
+			(xy 96.52 26.67) (xy 113.03 26.67)
 		)
 		(stroke
 			(width 0)
@@ -2608,6 +2815,16 @@
 			(type default)
 		)
 		(uuid "73e4f572-c7c3-411e-8348-dcbba1eb2b27")
+	)
+	(wire
+		(pts
+			(xy 113.03 41.91) (xy 113.03 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74364c30-e223-4eae-ae3a-d489e3bae2e4")
 	)
 	(wire
 		(pts
@@ -2821,6 +3038,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 26.67) (xy 138.43 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3198d34-aafc-42a7-9df9-3713393cbe1c")
+	)
+	(wire
+		(pts
 			(xy 180.34 62.23) (xy 180.34 59.69)
 		)
 		(stroke
@@ -2881,7 +3108,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 41.91) (xy 146.05 41.91)
+			(xy 142.24 41.91) (xy 147.32 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2978,6 +3205,16 @@
 			(type default)
 		)
 		(uuid "deda9abe-439b-48a8-aded-fffdc888c5c8")
+	)
+	(wire
+		(pts
+			(xy 147.32 26.67) (xy 160.02 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0daa00f-7550-4c4b-9de8-adefc3b7322a")
 	)
 	(wire
 		(pts
@@ -3359,7 +3596,7 @@
 	)
 	(hierarchical_label "Vbat+"
 		(shape input)
-		(at 137.16 26.67 180)
+		(at 96.52 26.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3999,120 +4236,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 138.43 35.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2c619086-25cf-4fb1-bd35-dec71e8b2efd")
-		(property "Reference" "C3"
-			(at 138.938 33.528 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 139.446 38.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 139.3952 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 138.43 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey link" "https://www.digikey.com/en/products/detail/taiyo-yuden/TMK212BBJ106KG-T/2714163"
-			(at 138.43 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey#" "587-2985-1-ND"
-			(at 138.43 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part#" "TMK212BBJ106KG-T"
-			(at 138.43 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7cac6c8c-ebe3-445d-8d41-18986dabcf3d")
-		)
-		(pin "1"
-			(uuid "433efdea-49ad-43bc-9892-78512e55d01d")
-		)
-		(instances
-			(project "Wingsail_PCB_2027"
-				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/7f5d2094-2856-4247-a9ab-41c9dec1bd29"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 36.83 132.08 0)
 		(unit 1)
@@ -4330,6 +4453,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 138.43 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fa9ac22-a40f-4748-8859-bbfdb18a1512")
+		(property "Reference" "C2"
+			(at 142.24 34.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 142.24 36.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.3952 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 138.43 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "aa299560-abe9-444a-a319-ec3e3dd27740")
+		)
+		(pin "1"
+			(uuid "c232c625-edea-44a1-a8a9-2a6773624116")
+		)
+		(instances
+			(project "Wingsail_PCB_2027"
+				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/7f5d2094-2856-4247-a9ab-41c9dec1bd29"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 190.5 102.87 0)
 		(unit 1)
@@ -4428,6 +4633,86 @@
 			(project "Wingsail_PCB_2027"
 				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/7f5d2094-2856-4247-a9ab-41c9dec1bd29"
 					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 107.95 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6201a552-af8b-4f3d-a0ab-2239bb8de279")
+		(property "Reference" "J8"
+			(at 108.585 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BMS Bypass"
+			(at 108.585 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 107.95 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1e15aa0c-c021-4f43-b3a2-ed64d50c8df8")
+		)
+		(pin "2"
+			(uuid "a46ba34a-9d39-4145-929e-f02e4ee50ca1")
+		)
+		(instances
+			(project "Wingsail_PCB_2027"
+				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/7f5d2094-2856-4247-a9ab-41c9dec1bd29"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -5901,6 +6186,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 147.32 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbee1c8a-aec2-431a-971b-1c5bc7a92e20")
+		(property "Reference" "C27"
+			(at 151.13 34.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47u"
+			(at 151.13 36.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 148.2852 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 147.32 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/cal-chip-electronics-inc/GMC21X5R476M10NT/18151103?s=N4IgjCBcpgLFoDGUBmBDANgZwKYBoQB7KAbRAHZYBWMKkAgJiodroF0CAHAFyhAGVuAJwCWAOwDmIAL4EwANgQhkkdNnxFSIAMwBObQ130d%2B7QA4QHEDz6DRkmXN1mj0Zaky4CxSGQAMlrIgDH6wrqA2kCAAqmIi3ADyKACyOGhYAK5COMYZfACtAGLGALbifLDkpWgAHhVVQQC0DEoqwhkaPmTs0kGKbiIAJnyNYH4QXLxRxtwAnpw5UenIvUA"
+			(at 147.32 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "490-GRM21BR61A476ME15KCT-ND"
+			(at 147.32 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part#" "GRM21BR61A476ME15K"
+			(at 147.32 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "48d2c216-1e90-4016-8891-a04403072251")
+		)
+		(pin "1"
+			(uuid "d0177040-8fe7-4cbb-86fe-b3f1bda4e7d8")
+		)
+		(instances
+			(project "Wingsail_PCB_2027"
+				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/7f5d2094-2856-4247-a9ab-41c9dec1bd29"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 190.5 110.49 90)
 		(unit 1)
@@ -6311,120 +6711,6 @@
 			(project "Wingsail_PCB_2027"
 				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/7f5d2094-2856-4247-a9ab-41c9dec1bd29"
 					(reference "C45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 146.05 35.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e50ac312-155a-465d-9411-f41331408af0")
-		(property "Reference" "C2"
-			(at 146.558 33.528 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 147.066 38.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 147.0152 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 146.05 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey link" "https://www.digikey.com/en/products/detail/taiyo-yuden/TMK212BBJ106KG-T/2714163"
-			(at 146.05 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey#" "587-2985-1-ND"
-			(at 146.05 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part#" "TMK212BBJ106KG-T"
-			(at 146.05 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "86c74c44-d92a-4dbf-8e5e-d1ada3cc7e48")
-		)
-		(pin "1"
-			(uuid "64511b24-078e-4d14-a105-c540c3e4e6de")
-		)
-		(instances
-			(project "Wingsail_PCB_2027"
-				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/7f5d2094-2856-4247-a9ab-41c9dec1bd29"
-					(reference "C2")
 					(unit 1)
 				)
 			)
