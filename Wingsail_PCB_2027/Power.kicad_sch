@@ -3790,120 +3790,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 177.8 107.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "183fcd8a-a131-48c3-979d-9415826b5639")
-		(property "Reference" "C37"
-			(at 178.308 105.918 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100u"
-			(at 178.816 110.49 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
-			(at 178.7652 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 177.8 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey link" "https://www.digikey.com/en/products/detail/kemet/ESH107M016AE3AA/3082960?s=N4IgjCBcpgnAHLKoDGUBmBDANgZwKYA0IA9lANogAMIAugL7EBMVALEtCGpFnkaRXBUqAAgCtAMTrEADgBcoIAKoA7AJZyA8ugCy%2BTLgCuAJ3whGIFgHYOqDDgLEykSkwCsIgGohiYAGxePkKBvkwh4B7ezKJRlvDhAMwxQQmRQazJxKxhsaxpxG6ZIG75xQGxfkV%2BCeF%2BpVZFVmDhVqXwRbAdpWDC4WA9fSyD3YV9lX2tfe3hLEVMA7FMQ4vuM0kzo4vTsUlFCWClCes7mynjO5M78KUZRawL6Qfh2XenWZdBhUVuq7El3%2BdPg1wm4PgVtkFKlVjtIQPJFKoNNo9AYTGYLABaJjILhQOTGQz8ZyUNx0egWPw4tQAE0UGJ6EFkCkgICCcgAnjIzCyDGhyUA"
-			(at 177.8 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey#" "399-6545-ND"
-			(at 177.8 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part#" "ESH107M016AE3AA"
-			(at 177.8 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3c060698-92c1-4ee6-a43d-04c04505c2d1")
-		)
-		(pin "1"
-			(uuid "06bf77f3-e1d3-4758-8378-cd382967483c")
-		)
-		(instances
-			(project "Wingsail_PCB_2027"
-				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/7f5d2094-2856-4247-a9ab-41c9dec1bd29"
-					(reference "C37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 234.95 38.1 0)
 		(unit 1)
 		(body_style 1)
@@ -4176,7 +4062,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 121.92 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -4269,7 +4155,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 37.846 132.334 90)
 			(hide yes)
 			(show_name no)
@@ -4486,7 +4372,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 139.3952 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -4568,7 +4454,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 191.516 103.124 90)
 			(hide yes)
 			(show_name no)
@@ -4670,7 +4556,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 107.95 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -5106,7 +4992,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOTFL50P160X60-8N"
+		(property "Footprint" "LM66200DRLR:SOTFL50P160X60-8N"
 			(at 93.98 223.19 0)
 			(hide yes)
 			(show_name no)
@@ -5225,6 +5111,28 @@
 				(justify left top)
 			)
 		)
+		(property "Part#" "LM66200DRLR"
+			(at 64.77 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "296-LM66200DRLRCT-ND"
+			(at 64.77 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "880c60bc-340a-400a-8da3-2ee5bb582c67")
 		)
@@ -5253,120 +5161,6 @@
 			(project "Wingsail_PCB_2027"
 				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/7f5d2094-2856-4247-a9ab-41c9dec1bd29"
 					(reference "IC5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 170.18 107.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7f92a82a-6c20-41b6-a4f7-7fd8b64bd9be")
-		(property "Reference" "C38"
-			(at 170.688 105.918 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100u"
-			(at 171.196 110.49 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
-			(at 171.1452 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 170.18 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey link" "https://www.digikey.com/en/products/detail/kemet/ESH107M016AE3AA/3082960?s=N4IgjCBcpgnAHLKoDGUBmBDANgZwKYA0IA9lANogAMIAugL7EBMVALEtCGpFnkaRXBUqAAgCtAMTrEADgBcoIAKoA7AJZyA8ugCy%2BTLgCuAJ3whGIFgHYOqDDgLEykSkwCsIgGohiYAGxePkKBvkwh4B7ezKJRlvDhAMwxQQmRQazJxKxhsaxpxG6ZIG75xQGxfkV%2BCeF%2BpVZFVmDhVqXwRbAdpWDC4WA9fSyD3YV9lX2tfe3hLEVMA7FMQ4vuM0kzo4vTsUlFCWClCes7mynjO5M78KUZRawL6Qfh2XenWZdBhUVuq7El3%2BdPg1wm4PgVtkFKlVjtIQPJFKoNNo9AYTGYLABaJjILhQOTGQz8ZyUNx0egWPw4tQAE0UGJ6EFkCkgICCcgAnjIzCyDGhyUA"
-			(at 170.18 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey#" "399-6545-ND"
-			(at 170.18 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part#" "ESH107M016AE3AA"
-			(at 170.18 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e2668f92-b0d6-4113-9ad7-cf81f4731a13")
-		)
-		(pin "1"
-			(uuid "9b626554-c2ed-4d60-8cb8-6e1489a4c88b")
-		)
-		(instances
-			(project "Wingsail_PCB_2027"
-				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/7f5d2094-2856-4247-a9ab-41c9dec1bd29"
-					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -5471,6 +5265,131 @@
 			(project "Wingsail_PCB_2027"
 				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/7f5d2094-2856-4247-a9ab-41c9dec1bd29"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 170.18 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "86d798ab-158e-4c65-9790-99819b9d101b")
+		(property "Reference" "C30"
+			(at 170.942 105.918 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47u"
+			(at 170.942 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 171.1452 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 170.18 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/cal-chip-electronics-inc/GMC21X5R476M10NT/18151103?s=N4IgjCBcpgLFoDGUBmBDANgZwKYBoQB7KAbRAHZYBWMKkAgJiodroF0CAHAFyhAGVuAJwCWAOwDmIAL4EwANgQhkkdNnxFSIAMwBObQ130d%2B7QA4QHEDz6DRkmXN1mj0Zaky4CxSGQAMlrIgDH6wrqA2kCAAqmIi3ADyKACyOGhYAK5COMYZfACtAGLGALbifLDkpWgAHhVVQQC0DEoqwhkaPmTs0kGKbiIAJnyNYH4QXLxRxtwAnpw5UenIvUA"
+			(at 170.18 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "490-GRM21BR61A476ME15KCT-ND"
+			(at 170.18 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part#" "GRM21BR61A476ME15K"
+			(at 170.18 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field8" "https://pim.murata.com/en-global/pim/details/?partNum=GRM21BR61A476ME15%23"
+			(at 170.18 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bf2a1564-a750-4a66-88d9-b15607e3d303")
+		)
+		(pin "1"
+			(uuid "2ffc282e-64e8-4d39-8003-600e08e555d6")
+		)
+		(instances
+			(project "Wingsail_PCB_2027"
+				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/7f5d2094-2856-4247-a9ab-41c9dec1bd29"
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -5908,7 +5827,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 36.83 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -6115,7 +6034,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 122.936 146.304 90)
 			(hide yes)
 			(show_name no)
@@ -6180,6 +6099,131 @@
 			(project "Wingsail_PCB_2027"
 				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/7f5d2094-2856-4247-a9ab-41c9dec1bd29"
 					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 177.8 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b8bf2fe3-94c0-41cc-aa62-00e7c9962d4a")
+		(property "Reference" "C31"
+			(at 178.816 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47u"
+			(at 178.816 110.236 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 178.7652 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 177.8 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/cal-chip-electronics-inc/GMC21X5R476M10NT/18151103?s=N4IgjCBcpgLFoDGUBmBDANgZwKYBoQB7KAbRAHZYBWMKkAgJiodroF0CAHAFyhAGVuAJwCWAOwDmIAL4EwANgQhkkdNnxFSIAMwBObQ130d%2B7QA4QHEDz6DRkmXN1mj0Zaky4CxSGQAMlrIgDH6wrqA2kCAAqmIi3ADyKACyOGhYAK5COMYZfACtAGLGALbifLDkpWgAHhVVQQC0DEoqwhkaPmTs0kGKbiIAJnyNYH4QXLxRxtwAnpw5UenIvUA"
+			(at 177.8 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "490-GRM21BR61A476ME15KCT-ND"
+			(at 177.8 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part#" "GRM21BR61A476ME15K"
+			(at 177.8 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field8" "https://pim.murata.com/en-global/pim/details/?partNum=GRM21BR61A476ME15%23"
+			(at 177.8 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2fe78765-dce4-4b8b-88a1-0b3fe2fbb8dd")
+		)
+		(pin "1"
+			(uuid "2c8f2914-d981-44e0-966c-5e380d5fcccc")
+		)
+		(instances
+			(project "Wingsail_PCB_2027"
+				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/7f5d2094-2856-4247-a9ab-41c9dec1bd29"
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -6334,7 +6378,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 190.5 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -6874,7 +6918,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "1825910-7_SW:CSBA1060-3R8M"
 			(at 212.09 34.29 0)
 			(hide yes)
 			(show_name no)

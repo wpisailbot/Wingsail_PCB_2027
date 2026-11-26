@@ -541,7 +541,7 @@
           "group_by": false,
           "label": "Reference",
           "name": "Reference",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -550,40 +550,40 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Value",
           "name": "Value",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -646,10 +646,10 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Digikey#",
           "name": "Digikey#",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -683,12 +683,6 @@
         },
         {
           "group_by": false,
-          "label": "DigiKey Link",
-          "name": "DigiKey Link",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "DigiKey Part Number",
           "name": "DigiKey Part Number",
           "show": false
@@ -703,6 +697,42 @@
           "group_by": false,
           "label": "Digikey Number",
           "name": "Digikey Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field8",
+          "name": "Field8",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DigiKey Link",
+          "name": "Digikey Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part#",
+          "name": "Part#",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part",
+          "name": "LCSC Part",
           "show": false
         }
       ],
@@ -754,7 +784,7 @@
         "uuid": "bc6bd6c7-c298-4657-b7be-c4ac293f57b7"
       }
     ],
-    "used_designators": "J8,R33-34,C2,C6-8,C26-27",
+    "used_designators": "J8,R33-34,C2,C6-8,C26-27,C30-31,CN1",
     "variants": []
   },
   "sheets": [

@@ -8,4 +8,7 @@
 	(lib (name "UJ20-C-H-G-MSMT-2-P16-TR") (type "KiCad") (uri "${KIPRJMOD}/Parts/UJ20-C-H-G-MSMT-2-P16-TR/UJ20-C-H-G-MSMT-2-P16-TR.kicad_sym") (options "") (descr ""))
 	(lib (name "74LVC1T45DW-7") (type "KiCad") (uri "${KIPRJMOD}/Parts/74LVC1T45DW-7/74LVC1T45DW-7.kicad_sym") (options "") (descr ""))
 	(lib (name "LM66200DRLR") (type "KiCad") (uri "${KIPRJMOD}/Parts/LM66200DRLR/LM66200DRLR.kicad_sym") (options "") (descr ""))
+	(lib (name "XT60PT-M") (type "KiCad") (uri "${KIPRJMOD}/Parts/XT60PT-M/XT60PT-M.kicad_sym") (options "") (descr ""))
+	(lib (name "WSHP2818R0180FEA") (type "KiCad") (uri "${KIPRJMOD}/Parts/WSHP2818R0180FEA/WSHP2818R0180FEA.kicad_sym") (options "") (descr ""))
+	(lib (name "1825910-7") (type "KiCad") (uri "${KIPRJMOD}/Parts/1825910-7_SW/1825910-7.kicad_sym") (options "") (descr ""))
 )
