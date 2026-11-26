@@ -239,9 +239,9 @@
 				(justify left)
 			)
 		)
-		(pin "Vbat+" output
+		(pin "Vbat+_SW" output
 			(at 210.82 87.63 0)
-			(uuid "4048970b-fd89-451f-a8ef-279c71ac92ed")
+			(uuid "c094db45-57bd-4765-873f-ec53b811eacc")
 			(effects
 				(font
 					(size 1.27 1.27)

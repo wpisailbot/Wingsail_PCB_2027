@@ -3306,6 +3306,26 @@
 		)
 		(uuid "ffc08be9-1f97-4db0-9367-745c4eab0b1a")
 	)
+	(label "Vout_5V_SW"
+		(at 68.58 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "077574d2-2f27-4bae-8f29-91a62f3f9ce9")
+	)
+	(label "Buck_FB"
+		(at 210.82 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "19c22a67-146b-48c6-aa68-2f991b43e684")
+	)
 	(global_label "GND_Sens"
 		(shape input)
 		(at 142.24 116.84 270)
@@ -3707,7 +3727,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200k"
+		(property "Value" "100K"
 			(at 157.48 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3751,7 +3771,7 @@
 				)
 			)
 		)
-		(property "Part#" "RK73H2ATTD2003F"
+		(property "Part#" "RK73H2ATTD1003F"
 			(at 154.94 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -3762,7 +3782,7 @@
 				)
 			)
 		)
-		(property "Digikey#" "2019-RK73H2ATTD2003FCT-ND"
+		(property "Digikey#" "2019-RK73H2ATTD1003FCT-ND"
 			(at 154.94 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -6908,7 +6928,7 @@
 				)
 			)
 		)
-		(property "Value" "3.8u"
+		(property "Value" "2u"
 			(at 212.09 31.75 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6918,7 +6938,7 @@
 				)
 			)
 		)
-		(property "Footprint" "1825910-7_SW:CSBA1060-3R8M"
+		(property "Footprint" "IND-SMD_L7.1-W6.6:IND-SMD_L7.1-W6.6"
 			(at 212.09 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -6962,7 +6982,7 @@
 				)
 			)
 		)
-		(property "Part#" "CSBA1060-3R8M"
+		(property "Part#" "CSBX0650-2R0M"
 			(at 212.09 34.29 90)
 			(hide yes)
 			(show_name no)
@@ -6973,7 +6993,7 @@
 				)
 			)
 		)
-		(property "Digikey#" "4044-CSBA1060-3R8MCT-ND"
+		(property "Digikey#" "4044-CSBX0650-2R0MCT-ND"
 			(at 212.09 34.29 90)
 			(hide yes)
 			(show_name no)

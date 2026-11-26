@@ -34,7 +34,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -195,7 +195,7 @@
 				(pin passive line
 					(at 5.08 7.62 180)
 					(length 3.81)
-					(name "C3"
+					(name "Vbat+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -249,7 +249,7 @@
 				(pin passive line
 					(at 5.08 -15.24 180)
 					(length 3.81)
-					(name "GND"
+					(name "Vbat-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -435,8 +435,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
+			(property "Reference" "D1"
+				(at 0 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -445,8 +445,8 @@
 					)
 				)
 			)
-			(property "Value" "D"
-				(at 0 -2.54 0)
+			(property "Value" "BAT54SWFILM"
+				(at 0 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -455,7 +455,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -500,6 +500,39 @@
 				)
 			)
 			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Digikey Link" "https://www.digikey.com/en/products/detail/stmicroelectronics/BAT54SWFILM/1037674"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part#" "BAT54SWFILM"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Digikey#" "497-14153-1-ND"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -572,9 +605,9 @@
 			)
 			(symbol "D_1_1"
 				(pin passive line
-					(at -3.81 0 0)
+					(at 3.81 0 180)
 					(length 2.54)
-					(name "K"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -590,9 +623,9 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
+					(at -3.81 0 0)
 					(length 2.54)
-					(name "A"
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -600,6 +633,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2075,27 +2126,29 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "CN"
-				(at 0 11.43 0)
+			(property "Reference" "Battery"
+				(at 5.08 -1.2701 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "XT60PT-M_C54431743"
-				(at 0 -11.43 0)
+				(at 5.08 1.2699 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "Changzhou_Amass_Elec_XT60PT-M:CONN-SMD_XT60PT-M_C9900188634"
+			(property "Footprint" "XT60PT-M:CONN-SMD_XT60PT-M_C9900188634"
 				(at 0 -13.97 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2185,42 +2238,6 @@
 					)
 				)
 				(pin unspecified line
-					(at -3.81 1.27 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -3.81 -1.27 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
 					(at 2.54 -6.35 90)
 					(length 2.54)
 					(name "3"
@@ -2249,6 +2266,44 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "XT60PT-M_C54431743_1_1"
+				(pin unspecified line
+					(at -3.81 1.27 0)
+					(length 2.54)
+					(name "Vbat-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 -1.27 0)
+					(length 2.54)
+					(name "Vbat+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2653,12 +2708,6 @@
 		(uuid "86594e17-73b5-4f27-8ead-28189ca5eb32")
 	)
 	(junction
-		(at 59.69 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8ba76f69-7e5d-491d-be11-728824b8ec17")
-	)
-	(junction
 		(at 119.38 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2731,6 +2780,12 @@
 		(uuid "cce1ceb9-a5a1-4b17-8742-33de2f6c8d98")
 	)
 	(junction
+		(at 59.69 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf44e7ae-1a24-4e88-8a69-d59b2c75c4ae")
+	)
+	(junction
 		(at 146.05 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2759,6 +2814,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff8c7876-1e68-4a2a-9aef-10875953445b")
+	)
+	(no_connect
+		(at 74.93 40.64)
+		(uuid "16ff7c88-ac31-4c81-8a14-553ce90d0bfa")
 	)
 	(no_connect
 		(at 24.13 71.12)
@@ -3137,6 +3196,16 @@
 			(type default)
 		)
 		(uuid "494f0c8e-95d5-4712-b029-72d5795b923f")
+	)
+	(wire
+		(pts
+			(xy 74.93 43.18) (xy 82.55 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c44b8b7-6c0c-4f70-8360-240b705cb3e8")
 	)
 	(wire
 		(pts
@@ -3910,7 +3979,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 43.18) (xy 74.93 43.18)
+			(xy 59.69 43.18) (xy 67.31 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4078,6 +4147,96 @@
 		)
 		(uuid "fcaf63ef-73a3-4a83-bdfb-486bf6303d3a")
 	)
+	(label "Wakeup"
+		(at 176.53 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b1b17fa-5d0f-4903-bfbc-f75b424ebd02")
+	)
+	(label "Isens+"
+		(at 111.76 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4cd97bd1-4733-411b-b516-9f90dc85f6fb")
+	)
+	(label "Nship"
+		(at 181.61 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5310932a-581e-4647-835e-ae246bded656")
+	)
+	(label "I_sens-"
+		(at 96.52 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "53e3aa9c-701e-4799-81bb-9ca7eeb7452a")
+	)
+	(label "DCHG"
+		(at 139.7 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "78edce9a-e94d-4c63-90ae-75884f6f35ac")
+	)
+	(label "Vbat+"
+		(at 107.95 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "89953796-3355-467c-af26-efc3598f17e2")
+	)
+	(label "OD"
+		(at 166.37 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c3f782bf-e860-4c4c-9bf3-b9599c698153")
+	)
+	(label "BMS_Vreg"
+		(at 152.4 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cebd4b41-ad50-45d2-89da-56ffcd08b031")
+	)
+	(label "VSD"
+		(at 146.05 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e05f4abe-e451-4f09-b755-44248888b52f")
+	)
 	(global_label "GND_Sens"
 		(shape input)
 		(at 115.57 139.7 0)
@@ -4113,7 +4272,7 @@
 		)
 		(uuid "19b3d2a2-640a-4d8c-8992-65945d886300")
 	)
-	(hierarchical_label "Vbat+"
+	(hierarchical_label "Vbat+_SW"
 		(shape output)
 		(at 160.02 40.64 0)
 		(effects
@@ -6556,7 +6715,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ad2aab5-1251-42e7-b103-74ce9f3f09a6")
-		(property "Reference" "J6"
+		(property "Reference" "Cell_Sens1"
 			(at 55.245 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6624,7 +6783,7 @@
 		(instances
 			(project "Wingsail_PCB_2027"
 				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
-					(reference "J6")
+					(reference "Cell_Sens1")
 					(unit 1)
 				)
 			)
@@ -8450,7 +8609,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 78.74 43.18 180)
+		(at 71.12 43.18 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8461,7 +8620,7 @@
 		(fields_autoplaced yes)
 		(uuid "b9cae66d-7ddd-43ca-aa20-41cc16d2e198")
 		(property "Reference" "D1"
-			(at 78.74 36.83 0)
+			(at 71.12 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8471,7 +8630,7 @@
 			)
 		)
 		(property "Value" "BAT54SWFILM"
-			(at 78.74 39.37 0)
+			(at 71.12 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8481,7 +8640,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
-			(at 78.74 43.18 0)
+			(at 71.12 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8492,7 +8651,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 43.18 0)
+			(at 71.12 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8503,7 +8662,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 78.74 43.18 0)
+			(at 71.12 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8514,7 +8673,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 78.74 43.18 0)
+			(at 71.12 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8525,7 +8684,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 78.74 43.18 0)
+			(at 71.12 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8536,7 +8695,7 @@
 			)
 		)
 		(property "Digikey Link" "https://www.digikey.com/en/products/detail/stmicroelectronics/BAT54SWFILM/1037674"
-			(at 78.74 43.18 90)
+			(at 71.12 43.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8547,7 +8706,7 @@
 			)
 		)
 		(property "Part#" "BAT54SWFILM"
-			(at 78.74 43.18 0)
+			(at 71.12 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8558,7 +8717,7 @@
 			)
 		)
 		(property "Digikey#" "497-14153-1-ND"
-			(at 78.74 43.18 0)
+			(at 71.12 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8573,6 +8732,9 @@
 		)
 		(pin "2"
 			(uuid "19fedb71-94fb-4bbf-b581-0c580febe733")
+		)
+		(pin "3"
+			(uuid "79531d85-998a-4c6f-a150-4405799dfb06")
 		)
 		(instances
 			(project "Wingsail_PCB_2027"
@@ -9683,10 +9845,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e8e0c9a8-5e1f-4ba9-814e-bde37b405896")
-		(property "Reference" "CN1"
-			(at 21.59 76.1999 0)
+		(property "Reference" "Battery1"
+			(at 27.686 68.834 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9697,7 +9858,7 @@
 			)
 		)
 		(property "Value" "XT60PT-M_C54431743"
-			(at 21.59 78.7399 0)
+			(at 35.052 85.598 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9788,7 +9949,7 @@
 		(instances
 			(project "Wingsail_PCB_2027"
 				(path "/bc6bd6c7-c298-4657-b7be-c4ac293f57b7/6af81920-a213-4adf-bd78-a00b59783d7d"
-					(reference "CN1")
+					(reference "Battery1")
 					(unit 1)
 				)
 			)
