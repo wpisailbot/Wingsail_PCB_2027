@@ -1,5 +1,4 @@
 (version 1)
-(version 1)
 
 # 1. Impedance Geometry (90 Ohm +/- 10% translated to Width & Gap)
 # Replace 0.20mm (width) and 0.15mm (gap) with values for your stackup.
@@ -31,3 +30,8 @@
     (constraint disallow via)
     (severity warning)
 )
+
+(version 1)
+(rule "Pad to Pad Clearance"
+  (constraint clearance (min 0.13mm))
+  (condition "A.Type == 'Pad' && B.Type == 'Pad' && A.Net != B.Net"))
