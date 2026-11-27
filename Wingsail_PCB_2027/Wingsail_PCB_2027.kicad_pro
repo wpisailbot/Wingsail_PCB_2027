@@ -64,7 +64,7 @@
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 2,
-          "remove_islands": 0,
+          "remove_islands": 1,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
@@ -210,7 +210,11 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.4,
+        0.6,
+        0.8,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -813,7 +817,7 @@
         "uuid": "bc6bd6c7-c298-4657-b7be-c4ac293f57b7"
       }
     ],
-    "used_designators": "R33-36,Boot1,J8,S1,C2,C6-8,C26-27,C30-31,CN1,Battery1,LEDS1,JTAG1,RST1,Trim_Servo1,UART1,Wind_Vane1,Cell_Sens1",
+    "used_designators": "R33-36,Boot1,J1,J8,S1,C2,C6-8,C26-27,C30-31,CN1,Battery1,LEDS1,JTAG1,RST1,Trim_Servo1,UART1,Wind_Vane1,Cell_Sens1",
     "variants": []
   },
   "sheets": [

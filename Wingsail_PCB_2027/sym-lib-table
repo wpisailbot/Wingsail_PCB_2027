@@ -11,4 +11,5 @@
 	(lib (name "XT60PT-M") (type "KiCad") (uri "${KIPRJMOD}/Parts/XT60PT-M/XT60PT-M.kicad_sym") (options "") (descr ""))
 	(lib (name "WSHP2818R0180FEA") (type "KiCad") (uri "${KIPRJMOD}/Parts/WSHP2818R0180FEA/WSHP2818R0180FEA.kicad_sym") (options "") (descr ""))
 	(lib (name "1825910-7") (type "KiCad") (uri "${KIPRJMOD}/Parts/1825910-7_SW/1825910-7.kicad_sym") (options "") (descr ""))
+	(lib (name "PTS636SM43_LFS") (type "KiCad") (uri "${KIPRJMOD}/Parts/PTS636SM43/PTS636SM43_LFS.kicad_sym") (options "") (descr ""))
 )
